@@ -52,7 +52,7 @@ const CARDS: Card[] = [
       ["Renovation", "Residential"],
       ["In-house", "On-Site"],
     ],
-    image: "/img/services/services-stack/s2.jpg",
+    image: "/img/services/services-stack/s2.webp",
     descrClass: "services-card__descr services-card__descr--list",
     descr: (
       <>
@@ -89,7 +89,7 @@ const CARDS: Card[] = [
       ["Brand strategy", "Logo design", "Guidelines"],
       ["Visual identity", "Rebranding"],
     ],
-    image: "/img/services/services-stack/s3.jpg",
+    image: "/img/services/services-stack/s3.webp",
     descrClass: "services-card__descr services-card__descr--list",
     descr: (
       <>
@@ -119,7 +119,7 @@ const CARDS: Card[] = [
       ["Turnkey planning", "interior design"],
       ["commercial spaces", "residential"],
     ],
-    image: "/img/services/services-stack/s5.jpg",
+    image: "/img/services/services-stack/s4.webp",
     descrClass: "services-card__descr services-card__descr--list",
     descr: (
       <>
