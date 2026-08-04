@@ -4,6 +4,7 @@ import {
   forwardRef,
   useCallback,
   useEffect,
+  useMemo,
   useRef,
   type ReactNode,
   type Ref,
@@ -70,10 +71,18 @@ const AutoplayLoopVideo = forwardRef<HTMLVideoElement, AutoplayLoopVideoProps>(
 
     const posterUrl =
       poster != null ? toPublicMediaUrl(String(poster)) : undefined;
-    const normSources = sources.map((s) => ({
-      ...s,
-      src: toPublicMediaUrl(s.src),
-    }));
+    const normSources = useMemo(
+      () =>
+        sources.map((s) => ({
+          ...s,
+          src: toPublicMediaUrl(s.src),
+        })),
+      [sources],
+    );
+    const sourceSignature = useMemo(
+      () => normSources.map((source) => `${source.type}:${source.src}`).join("|"),
+      [normSources],
+    );
 
     useEffect(() => {
       const v = innerRef.current;
@@ -96,10 +105,15 @@ const AutoplayLoopVideo = forwardRef<HTMLVideoElement, AutoplayLoopVideoProps>(
     useEffect(() => {
       const v = innerRef.current;
       if (!v) return;
-      // Soft navigations can leave loop videos paused/not initialized.
-      v.load();
+
+      // Avoid forcing the poster image back in on every soft navigation.
+      // Mobile browsers make that reset especially visible at route entry.
+      if (!v.currentSrc || v.networkState === HTMLMediaElement.NETWORK_EMPTY) {
+        v.load();
+      }
+
       void v.play().catch(() => {});
-    }, [pathname]);
+    }, [pathname, sourceSignature]);
 
     return (
       <video
