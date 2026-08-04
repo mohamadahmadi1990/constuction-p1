@@ -22,13 +22,15 @@ export default function BlogPreview() {
                   <div className="row g-0 d-flex flex-column-reverse flex-xl-row">
                     <div className="col-12 col-xl-8 mxd-grid-item-s">
                       <div className="mxd-section-title__title">
-                        <CommonAnimatedText
-                          as="h2"
-                          className="reveal-type"
-                          animation="revealType"
-                        >
-                          Featured news
-                        </CommonAnimatedText>
+                      <CommonAnimatedText
+                        as="h2"
+                        className="reveal-type"
+                        animation="revealType"
+                      >
+                        Planning notes
+                        <br />
+                        &amp; site insights
+                      </CommonAnimatedText>
                       </div>
                     </div>
                     <div className="col-12 col-xl-4 mxd-grid-item-s">
@@ -43,7 +45,7 @@ export default function BlogPreview() {
                             href={`/blog-standard`}
                           >
                             <TextScramble className="btn-caption mxd-scramble">
-                              News Overview
+                              All Articles
                             </TextScramble>
                           </Link>
                         </CommonScrollAnimated>
@@ -66,7 +68,7 @@ export default function BlogPreview() {
                       columns={4}
                     >
                       <div className="mxd-blog-item__date">
-                        <span className="meta-date">03 January, 2026</span>
+                        <span className="meta-date">12 February, 2026</span>
                       </div>
                       <Link
                         className="mxd-blog-item__media active-cursor-permanent"
@@ -84,7 +86,7 @@ export default function BlogPreview() {
                       <div className="mxd-blog-item__caption">
                         <div className="mxd-blog-item__title">
                           <Link className="blog-name-s" href={`/blog-article`}>
-                            Frontend innovations and user journeys
+                            What to define before a custom home moves into drawings
                           </Link>
                         </div>
                       </div>
@@ -96,7 +98,7 @@ export default function BlogPreview() {
                       columns={4}
                     >
                       <div className="mxd-blog-item__date">
-                        <span className="meta-date">15 January, 2026</span>
+                        <span className="meta-date">04 March, 2026</span>
                       </div>
                       <Link
                         className="mxd-blog-item__media active-cursor-permanent"
@@ -114,7 +116,7 @@ export default function BlogPreview() {
                       <div className="mxd-blog-item__caption">
                         <div className="mxd-blog-item__title">
                           <Link className="blog-name-s" href={`/blog-article`}>
-                            Branding in creating digital experiences
+                            Why early finish selections protect budget, schedule, and approvals
                           </Link>
                         </div>
                       </div>
@@ -126,7 +128,7 @@ export default function BlogPreview() {
                       columns={4}
                     >
                       <div className="mxd-blog-item__date">
-                        <span className="meta-date">28 January, 2026</span>
+                        <span className="meta-date">21 April, 2026</span>
                       </div>
                       <Link
                         className="mxd-blog-item__media active-cursor-permanent"
@@ -144,7 +146,7 @@ export default function BlogPreview() {
                       <div className="mxd-blog-item__caption">
                         <div className="mxd-blog-item__title">
                           <Link className="blog-name-s" href={`/blog-article`}>
-                            Elevating digital workshops with engaging design
+                            Coordinating commercial fit-outs while the business stays operational
                           </Link>
                         </div>
                       </div>
@@ -156,7 +158,7 @@ export default function BlogPreview() {
                       columns={4}
                     >
                       <div className="mxd-blog-item__date">
-                        <span className="meta-date">02 February, 2026</span>
+                        <span className="meta-date">09 May, 2026</span>
                       </div>
                       <Link
                         className="mxd-blog-item__media active-cursor-permanent"
@@ -174,8 +176,7 @@ export default function BlogPreview() {
                       <div className="mxd-blog-item__caption">
                         <div className="mxd-blog-item__title">
                           <Link className="blog-name-s" href={`/blog-article`}>
-                            Designing for the future of interactive digital
-                            spaces
+                            Renovation permits, sequencing, and how to prepare a site properly
                           </Link>
                         </div>
                       </div>

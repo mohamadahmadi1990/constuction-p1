@@ -20,9 +20,9 @@ export default function Awards() {
                         className="reveal-type"
                         animation="revealType"
                       >
-                        Awards &amp;
+                        Where experience
                         <br />
-                        publications
+                        shows up
                       </CommonAnimatedText>
                     </div>
                   </div>
@@ -38,7 +38,7 @@ export default function Awards() {
                           href={`/works-default`}
                         >
                           <TextScramble className="btn-caption mxd-scramble">
-                            Case Studies
+                            Explore Projects
                           </TextScramble>
                         </Link>
                       </CommonScrollAnimated>
@@ -55,9 +55,8 @@ export default function Awards() {
               {/* awards item */}
               <a
                 className="mxd-awards__item active-cursor-accent"
-                data-cursor-text="Read Post"
-                href="https://medium.com/"
-                target="_blank"
+                data-cursor-text="View Work"
+                href="/works-default"
               >
                 <div className="container-fluid px-0 mxd-awards__inner">
                   <div className="row g-0 d-flex">
@@ -68,17 +67,17 @@ export default function Awards() {
                           as="p"
                           animation="inUp"
                         >
-                          Some article on Medium
+                          Custom homes and low-rise residential delivery
                         </CommonScrollAnimated>
                       </div>
                     </div>
                     <div className="col-12 col-xl-4 order-1 order-xl-2 mxd-grid-item">
                       <div className="mxd-awards__image">
                         <Image
-                          alt="Azurio Image"
-                          src="/img/illustrations/awards01.webp"
-                          width={1000}
-                          height={455}
+                          alt="Refined contemporary house exterior"
+                          src="/img/about-us-modern/modern-house-01.jpg"
+                          width={7360}
+                          height={4912}
                         />
                       </div>
                     </div>
@@ -89,14 +88,14 @@ export default function Awards() {
                           as="span"
                           animation="inUp"
                         >
-                          UI/UX design
+                          Residential
                         </CommonScrollAnimated>
                         <CommonScrollAnimated
                           className="tag tag-m mxd-scramble anim-uni-in-up"
                           as="span"
                           animation="inUp"
                         >
-                          Development
+                          Design-build
                         </CommonScrollAnimated>
                       </div>
                     </div>
@@ -107,7 +106,7 @@ export default function Awards() {
                           as="p"
                           animation="inUp"
                         >
-                          2026
+                          Residential
                         </CommonScrollAnimated>
                       </div>
                     </div>
@@ -117,9 +116,8 @@ export default function Awards() {
               {/* awards item */}
               <a
                 className="mxd-awards__item active-cursor-accent"
-                data-cursor-text="See Page"
-                href="https://www.awwwards.com/"
-                target="_blank"
+                data-cursor-text="View Work"
+                href="/services"
               >
                 <div className="container-fluid px-0 mxd-awards__inner">
                   <div className="row g-0 d-flex">
@@ -130,17 +128,17 @@ export default function Awards() {
                           as="p"
                           animation="inUp"
                         >
-                          Awwwards nomination
+                          Renovations, additions, and interior upgrades
                         </CommonScrollAnimated>
                       </div>
                     </div>
                     <div className="col-12 col-xl-4 order-1 order-xl-2 mxd-grid-item">
                       <div className="mxd-awards__image">
                         <Image
-                          alt="Azurio Image"
-                          src="/img/illustrations/awards02.webp"
-                          width={1000}
-                          height={455}
+                          alt="Interior finish and material palette"
+                          src="/img/about-us-modern/material-palette.jpg"
+                          width={8256}
+                          height={5504}
                         />
                       </div>
                     </div>
@@ -151,14 +149,14 @@ export default function Awards() {
                           as="span"
                           animation="inUp"
                         >
-                          UI/UX
+                          Renovation
                         </CommonScrollAnimated>
                         <CommonScrollAnimated
                           className="tag tag-m mxd-scramble anim-uni-in-up"
                           as="span"
                           animation="inUp"
                         >
-                          Frontend
+                          In-house finishing
                         </CommonScrollAnimated>
                       </div>
                     </div>
@@ -169,7 +167,7 @@ export default function Awards() {
                           as="p"
                           animation="inUp"
                         >
-                          2026
+                          Interiors
                         </CommonScrollAnimated>
                       </div>
                     </div>
@@ -179,9 +177,8 @@ export default function Awards() {
               {/* awards item */}
               <a
                 className="mxd-awards__item active-cursor-accent"
-                data-cursor-text="Know More"
-                href="https://www.behance.net/"
-                target="_blank"
+                data-cursor-text="View Work"
+                href="/works-default"
               >
                 <div className="container-fluid px-0 mxd-awards__inner">
                   <div className="row g-0">
@@ -192,17 +189,17 @@ export default function Awards() {
                           as="p"
                           animation="inUp"
                         >
-                          Behance curated work
+                          Commercial fit-outs and tenant improvements
                         </CommonScrollAnimated>
                       </div>
                     </div>
                     <div className="col-12 col-xl-4 order-1 order-xl-2 mxd-grid-item">
                       <div className="mxd-awards__image">
                         <Image
-                          alt="Azurio Image"
-                          src="/img/illustrations/awards03.webp"
-                          width={1000}
-                          height={455}
+                          alt="Elegant commercial facade with a modern grid"
+                          src="/img/about-us-modern/office-facade.jpg"
+                          width={3024}
+                          height={4032}
                         />
                       </div>
                     </div>
@@ -213,14 +210,14 @@ export default function Awards() {
                           as="span"
                           animation="inUp"
                         >
-                          Illustrations
+                          Commercial
                         </CommonScrollAnimated>
                         <CommonScrollAnimated
                           className="tag tag-m mxd-scramble anim-uni-in-up"
                           as="span"
                           animation="inUp"
                         >
-                          Graphic design
+                          Coordination
                         </CommonScrollAnimated>
                       </div>
                     </div>
@@ -231,7 +228,7 @@ export default function Awards() {
                           as="p"
                           animation="inUp"
                         >
-                          2025
+                          Commercial
                         </CommonScrollAnimated>
                       </div>
                     </div>
@@ -241,9 +238,8 @@ export default function Awards() {
               {/* awards item */}
               <a
                 className="mxd-awards__item active-cursor-accent"
-                data-cursor-text="Read Post"
-                href="https://medium.com/"
-                target="_blank"
+                data-cursor-text="Learn More"
+                href="/about-us"
               >
                 <div className="container-fluid px-0 mxd-awards__inner">
                   <div className="row g-0">
@@ -254,17 +250,17 @@ export default function Awards() {
                           as="p"
                           animation="inUp"
                         >
-                          Article on Medium
+                          Permit sets, technical coordination, and site planning
                         </CommonScrollAnimated>
                       </div>
                     </div>
                     <div className="col-12 col-xl-4 order-1 order-xl-2 mxd-grid-item">
                       <div className="mxd-awards__image">
                         <Image
-                          alt="Azurio Image"
-                          src="/img/illustrations/awards04.webp"
-                          width={1000}
-                          height={455}
+                          alt="Architects reviewing plans in a studio setting"
+                          src="/img/about-us-modern/blueprint-meeting.jpg"
+                          width={3840}
+                          height={2160}
                         />
                       </div>
                     </div>
@@ -275,14 +271,14 @@ export default function Awards() {
                           as="span"
                           animation="inUp"
                         >
-                          UI/UX
+                          Planning
                         </CommonScrollAnimated>
                         <CommonScrollAnimated
                           className="tag tag-m mxd-scramble anim-uni-in-up"
                           as="span"
                           animation="inUp"
                         >
-                          Frontend
+                          Permits
                         </CommonScrollAnimated>
                       </div>
                     </div>
@@ -293,7 +289,7 @@ export default function Awards() {
                           as="p"
                           animation="inUp"
                         >
-                          2026
+                          Planning
                         </CommonScrollAnimated>
                       </div>
                     </div>
@@ -303,9 +299,8 @@ export default function Awards() {
               {/* awards item */}
               <a
                 className="mxd-awards__item active-cursor-accent"
-                data-cursor-text="See Page"
-                href="https://www.awwwards.com/"
-                target="_blank"
+                data-cursor-text="View Service"
+                href="/services"
               >
                 <div className="container-fluid px-0 mxd-awards__inner">
                   <div className="row g-0">
@@ -316,17 +311,17 @@ export default function Awards() {
                           as="p"
                           animation="inUp"
                         >
-                          Awwwards nomination
+                          Multiplex and multi-unit project management
                         </CommonScrollAnimated>
                       </div>
                     </div>
                     <div className="col-12 col-xl-4 order-1 order-xl-2 mxd-grid-item">
                       <div className="mxd-awards__image">
                         <Image
-                          alt="Azurio Image"
-                          src="/img/illustrations/awards05.webp"
-                          width={1000}
-                          height={455}
+                          alt="Minimal dark exterior for a residential project"
+                          src="/img/about-us-modern/modern-house-02.jpg"
+                          width={7360}
+                          height={4912}
                         />
                       </div>
                     </div>
@@ -337,14 +332,14 @@ export default function Awards() {
                           as="span"
                           animation="inUp"
                         >
-                          UI/UX design
+                          Multi-unit
                         </CommonScrollAnimated>
                         <CommonScrollAnimated
                           className="tag tag-m mxd-scramble anim-uni-in-up"
                           as="span"
                           animation="inUp"
                         >
-                          Development
+                          Site management
                         </CommonScrollAnimated>
                       </div>
                     </div>
@@ -355,7 +350,7 @@ export default function Awards() {
                           as="p"
                           animation="inUp"
                         >
-                          2025
+                          Multi-unit
                         </CommonScrollAnimated>
                       </div>
                     </div>
@@ -365,9 +360,8 @@ export default function Awards() {
               {/* awards item */}
               <a
                 className="mxd-awards__item active-cursor-accent"
-                data-cursor-text="Know More"
-                href="https://www.cssdesignawards.com/"
-                target="_blank"
+                data-cursor-text="View Details"
+                href="/contact"
               >
                 <div className="container-fluid px-0 mxd-awards__inner">
                   <div className="row g-0">
@@ -378,17 +372,17 @@ export default function Awards() {
                           as="p"
                           animation="inUp"
                         >
-                          CSS Design Awards
+                          Interior detailing, finishes, and client selections
                         </CommonScrollAnimated>
                       </div>
                     </div>
                     <div className="col-12 col-xl-4 order-1 order-xl-2 mxd-grid-item">
                       <div className="mxd-awards__image">
                         <Image
-                          alt="Azurio Image"
-                          src="/img/illustrations/awards06.webp"
-                          width={1000}
-                          height={455}
+                          alt="Curved stair detail in a modern interior"
+                          src="/img/about-us-modern/staircase-interior.jpg"
+                          width={7008}
+                          height={4672}
                         />
                       </div>
                     </div>
@@ -399,21 +393,21 @@ export default function Awards() {
                           as="span"
                           animation="inUp"
                         >
-                          Illustrations
+                          Interiors
                         </CommonScrollAnimated>
                         <CommonScrollAnimated
                           className="tag tag-m mxd-scramble anim-uni-in-up"
                           as="span"
                           animation="inUp"
                         >
-                          Web Design
+                          Materials
                         </CommonScrollAnimated>
                         <CommonScrollAnimated
                           className="tag tag-m mxd-scramble anim-uni-in-up"
                           as="span"
                           animation="inUp"
                         >
-                          Development
+                          Specifications
                         </CommonScrollAnimated>
                       </div>
                     </div>
@@ -424,7 +418,7 @@ export default function Awards() {
                           as="p"
                           animation="inUp"
                         >
-                          2025
+                          Finishes
                         </CommonScrollAnimated>
                       </div>
                     </div>

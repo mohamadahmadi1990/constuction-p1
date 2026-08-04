@@ -7,7 +7,7 @@ export default function ParallaxDividerImage() {
         <div className="mxd-container fullwidth-container">
           <div className="mxd-divider">
             <UkiyoParallax
-              className="mxd-divider__image divider-image-12 parallax-img"
+              className="mxd-divider__image divider-image-about-01 parallax-img"
               scale={1.4}
               speed={1.5}
               externalRAF={false}

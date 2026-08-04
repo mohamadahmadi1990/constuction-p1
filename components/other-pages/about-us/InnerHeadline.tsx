@@ -84,7 +84,7 @@ export default function InnerHeadline() {
                             targetId="process"
                           >
                             <TextScramble className="btn-caption mxd-scramble">
-                              Studio
+                              Our Process
                             </TextScramble>
                           </SmoothAnchorLink>
                         </div>
@@ -95,21 +95,21 @@ export default function InnerHeadline() {
                           className="inner-headline__title banners-hover centered loading-item"
                         >
                           <h1 className="small">
-                            Creating engaging{" "}
+                            Designing refined{" "}
                             <Link
                               ref={trigger1Ref}
                               className="inner-headline__trigger banners-trigger-1"
                               href={`/works-default`}
                             >
-                              user experiences
+                              residential spaces
                             </Link>{" "}
-                            and{" "}
+                            and delivering disciplined{" "}
                             <Link
                               ref={trigger2Ref}
                               className="inner-headline__trigger banners-trigger-2"
                               href={`/works-default`}
                             >
-                              design solutions
+                              commercial environments
                             </Link>
                           </h1>
                         </div>
@@ -120,10 +120,10 @@ export default function InnerHeadline() {
                         className="headline-banner-01 landscape image-01"
                       >
                         <Image
-                          alt="Azurio Template Sample Image"
-                          src="/img/illustrations/about-us-01.webp"
-                          width={640}
-                          height={480}
+                          alt="Contemporary residential exterior"
+                          src="/img/about-us-modern/modern-house-01.jpg"
+                          width={7360}
+                          height={4912}
                         />
                       </div>
                       <div
@@ -131,10 +131,10 @@ export default function InnerHeadline() {
                         className="headline-banner-01 portrait image-02"
                       >
                         <Image
-                          alt="Azurio Template Sample Image"
-                          src="/img/illustrations/about-us-02.webp"
-                          width={560}
-                          height={700}
+                          alt="Modern commercial facade"
+                          src="/img/about-us-modern/office-facade.jpg"
+                          width={3024}
+                          height={4032}
                         />
                       </div>
                       <div
@@ -142,10 +142,10 @@ export default function InnerHeadline() {
                         className="headline-banner-01 landscape image-03"
                       >
                         <Image
-                          alt="Azurio Template Sample Image"
-                          src="/img/illustrations/about-us-03.webp"
-                          width={640}
-                          height={480}
+                          alt="Architects reviewing floor plans"
+                          src="/img/about-us-modern/blueprint-meeting.jpg"
+                          width={3840}
+                          height={2160}
                         />
                       </div>
                       <div
@@ -153,10 +153,10 @@ export default function InnerHeadline() {
                         className="headline-banner-01 portrait image-04"
                       >
                         <Image
-                          alt="Azurio Template Sample Image"
-                          src="/img/illustrations/about-us-04.webp"
-                          width={560}
-                          height={700}
+                          alt="Minimalist architectural corridor"
+                          src="/img/about-us-modern/glass-corridor.jpg"
+                          width={4000}
+                          height={6000}
                         />
                       </div>
                       <div
@@ -164,10 +164,10 @@ export default function InnerHeadline() {
                         className="headline-banner-02 portrait image-05"
                       >
                         <Image
-                          alt="Azurio Template Sample Image"
-                          src="/img/illustrations/about-us-05.webp"
-                          width={560}
-                          height={700}
+                          alt="Curated material palette for interior selections"
+                          src="/img/about-us-modern/material-palette.jpg"
+                          width={8256}
+                          height={5504}
                         />
                       </div>
                       <div
@@ -175,10 +175,10 @@ export default function InnerHeadline() {
                         className="headline-banner-02 landscape image-06"
                       >
                         <Image
-                          alt="Azurio Template Sample Image"
-                          src="/img/illustrations/about-us-06.webp"
-                          width={640}
-                          height={480}
+                          alt="Minimal modern residence in dark finish"
+                          src="/img/about-us-modern/modern-house-02.jpg"
+                          width={7360}
+                          height={4912}
                         />
                       </div>
                       <div
@@ -186,10 +186,10 @@ export default function InnerHeadline() {
                         className="headline-banner-02 portrait image-07"
                       >
                         <Image
-                          alt="Azurio Template Sample Image"
-                          src="/img/illustrations/about-us-07.webp"
-                          width={560}
-                          height={700}
+                          alt="Sculptural staircase in a contemporary interior"
+                          src="/img/about-us-modern/staircase-interior.jpg"
+                          width={7008}
+                          height={4672}
                         />
                       </div>
                       <div
@@ -197,10 +197,10 @@ export default function InnerHeadline() {
                         className="headline-banner-02 landscape image-08"
                       >
                         <Image
-                          alt="Azurio Template Sample Image"
-                          src="/img/illustrations/about-us-08.webp"
-                          width={640}
-                          height={480}
+                          alt="Refined exterior architecture with crisp geometry"
+                          src="/img/about-us-modern/modern-house-01.jpg"
+                          width={7360}
+                          height={4912}
                         />
                       </div>
                     </div>
@@ -216,11 +216,10 @@ export default function InnerHeadline() {
                             <li className="loading-item">
                               <a
                                 className="mxd-socials-line__link"
-                                href="https://dribbble.com/"
-                                target="_blank"
+                                href="/works-default"
                               >
                                 <TextScramble className="mxd-scramble">
-                                  Dribbble
+                                  Projects
                                 </TextScramble>
                               </a>
                             </li>
@@ -229,11 +228,10 @@ export default function InnerHeadline() {
                             <li className="loading-item">
                               <a
                                 className="mxd-socials-line__link"
-                                href="https://www.behance.net/"
-                                target="_blank"
+                                href="/services"
                               >
                                 <TextScramble className="mxd-scramble">
-                                  Behance
+                                  Services
                                 </TextScramble>
                               </a>
                             </li>
@@ -242,11 +240,10 @@ export default function InnerHeadline() {
                             <li className="loading-item">
                               <a
                                 className="mxd-socials-line__link"
-                                href="https://github.com/"
-                                target="_blank"
+                                href="/team"
                               >
                                 <TextScramble className="mxd-scramble">
-                                  Github
+                                  Team
                                 </TextScramble>
                               </a>
                             </li>
@@ -255,11 +252,10 @@ export default function InnerHeadline() {
                             <li className="loading-item">
                               <a
                                 className="mxd-socials-line__link"
-                                href="https://codepen.io/"
-                                target="_blank"
+                                href="/blog-standard"
                               >
                                 <TextScramble className="mxd-scramble">
-                                  Codepen
+                                  Insights
                                 </TextScramble>
                               </a>
                             </li>
@@ -268,11 +264,10 @@ export default function InnerHeadline() {
                             <li className="loading-item">
                               <a
                                 className="mxd-socials-line__link"
-                                href="https://www.figma.com/community"
-                                target="_blank"
+                                href="/contact"
                               >
                                 <TextScramble className="mxd-scramble">
-                                  Figma Community
+                                  Contact
                                 </TextScramble>
                               </a>
                             </li>
@@ -318,7 +313,7 @@ export default function InnerHeadline() {
                                   </TextScramble>
                                 </Link>
                               </span>
-                              <span className="current-item">About Us </span>
+                              <span className="current-item">About Us</span>
                             </div>
                           </div>
                         </CommonLoadFade>

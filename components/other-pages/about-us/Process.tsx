@@ -5,7 +5,10 @@ import { CommonScrollAnimated } from "@/components/animations/CommonScrollAnimat
 export default function Process() {
   return (
     <>
-      <BlurSection id="process" className="mxd-section padding-top-manifest-m padding-bottom-tag-m-desktop">
+      <BlurSection
+        id="process"
+        className="mxd-section padding-top-manifest-m padding-bottom-tag-m-desktop"
+      >
         <div className="mxd-container grid-l-container">
           {/* Block - Manifest Large Start */}
           <div className="mxd-block">
@@ -24,11 +27,13 @@ export default function Process() {
                             className="manifest manifest-m mxd-split-lines active-cursor-accent"
                             animation="splitLines"
                           >
-                            We are a creative web agency specializing in
-                            innovative design and cutting-edge development.
+                            We approach every project with the precision of an
+                            architectural studio and the accountability of a
+                            construction team.
                             <span>
-                              We help businesses stand out and thrive in the
-                              modern landscape.
+                              From the first briefing to final handover, we
+                              keep design intent, buildability, budget, and
+                              site execution aligned.
                             </span>
                           </CommonAnimatedText>
                         </Link>
@@ -60,7 +65,7 @@ export default function Process() {
                       <div className="mxd-process-points__icon">
                         <i className="ph ph-crosshair" />
                       </div>
-                      <p>Strategy</p>
+                      <p>Discovery &amp; Planning</p>
                     </CommonScrollAnimated>
                     <div className="mxd-process-points__descr">
                       <CommonAnimatedText
@@ -68,9 +73,9 @@ export default function Process() {
                         className="t-medium mxd-split-lines"
                         animation="splitLines"
                       >
-                        Discover how artificial intelligence is transforming
-                        artistic processes, pushing boundaries, and inspiring
-                        new possibilities in digital design.
+                        We define scope, site conditions, budget direction, and
+                        project priorities before drawings, permits, and site
+                        work move forward.
                       </CommonAnimatedText>
                     </div>
                     <CommonScrollAnimated
@@ -79,7 +84,7 @@ export default function Process() {
                       animation="inUp"
                     >
                       <span className="tag tag-m meta-time">
-                        1-2 weeks timeline
+                        Early phase alignment
                       </span>
                     </CommonScrollAnimated>
                   </div>
@@ -98,7 +103,7 @@ export default function Process() {
                       <div className="mxd-process-points__icon">
                         <i className="ph ph-bezier-curve" />
                       </div>
-                      <p>Design</p>
+                      <p>Design &amp; Coordination</p>
                     </CommonScrollAnimated>
                     <div className="mxd-process-points__descr">
                       <CommonAnimatedText
@@ -106,9 +111,9 @@ export default function Process() {
                         className="t-medium mxd-split-lines"
                         animation="splitLines"
                       >
-                        Discover how artificial intelligence is transforming
-                        artistic processes, pushing boundaries, and inspiring
-                        new possibilities in digital design.
+                        We translate project goals into layouts, technical
+                        details, permit-ready documentation, and coordinated
+                        material selections.
                       </CommonAnimatedText>
                     </div>
                     <CommonScrollAnimated
@@ -117,7 +122,7 @@ export default function Process() {
                       animation="inUp"
                     >
                       <span className="tag tag-m meta-time">
-                        ~2 weeks timeline
+                        Drawings, permits, selections
                       </span>
                     </CommonScrollAnimated>
                   </div>
@@ -136,7 +141,7 @@ export default function Process() {
                       <div className="mxd-process-points__icon">
                         <i className="ph ph-codesandbox-logo" />
                       </div>
-                      <p>Development</p>
+                      <p>Construction Delivery</p>
                     </CommonScrollAnimated>
                     <div className="mxd-process-points__descr">
                       <CommonAnimatedText
@@ -144,9 +149,9 @@ export default function Process() {
                         className="t-medium mxd-split-lines"
                         animation="splitLines"
                       >
-                        Discover how artificial intelligence is transforming
-                        artistic processes, pushing boundaries, and inspiring
-                        new possibilities in digital design.
+                        Our team directs trades, schedule, quality control, and
+                        handover so the finished space performs as designed and
+                        built.
                       </CommonAnimatedText>
                     </div>
                     <CommonScrollAnimated
@@ -155,7 +160,7 @@ export default function Process() {
                       animation="inUp"
                     >
                       <span className="tag tag-m meta-time">
-                        3-4 weeks timeline
+                        Build, supervise, deliver
                       </span>
                     </CommonScrollAnimated>
                     <CommonScrollAnimated

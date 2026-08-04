@@ -31,7 +31,7 @@ export default function InnerHeadline() {
                       }}
                     >
                       <AutoplayLoopVideo
-                        poster="video/1280x720_stone-geometry-banner.webp"
+                        poster="/img/about-us-modern/modern-house-02.jpg"
                         sources={[
                           {
                             type: "video/mp4",

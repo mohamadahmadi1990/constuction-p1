@@ -4,6 +4,24 @@
 @import "../public/css/plugins.css";
 @import "../public/css/main.css";
 @import "./menu-open.css";
+
+body {
+  --_font-default: var(--font-manrope);
+  --_font-accent: var(--font-jetbrains-mono);
+}
+
+.divider-image-about-01 {
+  background-image: url("/img/about-us-modern/modern-house-01.jpg");
+}
+
+.divider-image-about-02 {
+  background-image: url("/img/about-us-modern/modern-house-02.jpg");
+}
+
+.divider-image-services-01 {
+  background-image: url("/img/about-us-modern/glass-corridor.jpg");
+}
+
 .image-auto {
   /* width: auto !important; */
   height: auto !important;

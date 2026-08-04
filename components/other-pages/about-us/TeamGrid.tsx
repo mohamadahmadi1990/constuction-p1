@@ -24,9 +24,9 @@ export default function TeamGrid() {
                         className="reveal-type"
                         animation="revealType"
                       >
-                        Creative
+                        Leadership
                         <br />
-                        leaders
+                        across the build
                       </CommonAnimatedText>
                     </div>
                   </div>
@@ -42,7 +42,7 @@ export default function TeamGrid() {
                           href={`/team`}
                         >
                           <TextScramble className="btn-caption mxd-scramble">
-                            Our Team
+                            How We Work
                           </TextScramble>
                         </Link>
                       </CommonScrollAnimated>
@@ -52,9 +52,11 @@ export default function TeamGrid() {
                           className="t-bold t-large mxd-split-lines"
                           animation="splitLines"
                         >
-                          Technical experts dedicated to delivering{" "}
+                          A connected team leading feasibility, design
+                          coordination, and on-site delivery{" "}
                           <span>
-                            flawless, high-performing digital experiences.
+                            so every stage moves with less friction and better
+                            control.
                           </span>
                         </CommonAnimatedText>
                       </div>
@@ -80,10 +82,10 @@ export default function TeamGrid() {
                       <div className="mxd-team-grid__media">
                         <div className="mxd-team-grid__photo">
                           <Image
-                            alt="Azurio Template Team Member Photo"
-                            src="/img/avatars/800x800_ava-05.webp"
-                            width={800}
-                            height={800}
+                            alt="Architects reviewing floor plans"
+                            src="/img/about-us-modern/blueprint-meeting.jpg"
+                            width={3840}
+                            height={2160}
                           />
                         </div>
                         <div className="mxd-team-grid__socials">
@@ -93,27 +95,28 @@ export default function TeamGrid() {
                             className="tag tag-m tag-bg permanent"
                           >
                             <TextScramble className="mxd-scramble">
-                              Linkedin
+                              Leadership
                             </TextScramble>
                           </a>
                           <a
-                            href="https://www.behance.net/"
-                            target="_blank"
+                            href="/contact"
                             className="tag tag-m tag-bg permanent"
                           >
                             <TextScramble className="mxd-scramble">
-                              Behance
+                              Contact
                             </TextScramble>
                           </a>
                         </div>
                       </div>
                       <div className="mxd-team-grid__caption">
                         <div className="mxd-team-grid__name">
-                          <p className="project-name-m">Helen Pineapple</p>
+                          <p className="project-name-m">
+                            Pre-construction strategy
+                          </p>
                         </div>
                         <div className="mxd-team-grid__position">
                           <span className="tag tag-m tag-medium">
-                            Co-founder &amp; head of design
+                            Feasibility, scope, budget direction
                           </span>
                         </div>
                       </div>
@@ -129,10 +132,10 @@ export default function TeamGrid() {
                       <div className="mxd-team-grid__media">
                         <div className="mxd-team-grid__photo">
                           <Image
-                            alt="Azurio Template Team Member Photo"
-                            src="/img/avatars/800x800_ava-06.webp"
-                            width={800}
-                            height={800}
+                            alt="Architectural materials and finish selections"
+                            src="/img/about-us-modern/material-palette.jpg"
+                            width={8256}
+                            height={5504}
                           />
                         </div>
                         <div className="mxd-team-grid__socials">
@@ -142,27 +145,28 @@ export default function TeamGrid() {
                             className="tag tag-m tag-bg permanent"
                           >
                             <TextScramble className="mxd-scramble">
-                              Linkedin
+                              Design
                             </TextScramble>
                           </a>
                           <a
-                            href="https://www.behance.net/"
-                            target="_blank"
+                            href="/contact"
                             className="tag tag-m tag-bg permanent"
                           >
                             <TextScramble className="mxd-scramble">
-                              Behance
+                              Contact
                             </TextScramble>
                           </a>
                         </div>
                       </div>
                       <div className="mxd-team-grid__caption">
                         <div className="mxd-team-grid__name">
-                          <p className="project-name-m">Alex Tomato</p>
+                          <p className="project-name-m">
+                            Design and permit coordination
+                          </p>
                         </div>
                         <div className="mxd-team-grid__position">
                           <span className="tag tag-m tag-medium">
-                            SEO, Brand manager
+                            Drawings, approvals, finish decisions
                           </span>
                         </div>
                       </div>
@@ -178,10 +182,10 @@ export default function TeamGrid() {
                       <div className="mxd-team-grid__media">
                         <div className="mxd-team-grid__photo">
                           <Image
-                            alt="Azurio Template Team Member Photo"
-                            src="/img/avatars/800x800_ava-07.webp"
-                            width={800}
-                            height={800}
+                            alt="Sculptural staircase in a finished interior"
+                            src="/img/about-us-modern/staircase-interior.jpg"
+                            width={7008}
+                            height={4672}
                           />
                         </div>
                         <div className="mxd-team-grid__socials">
@@ -191,27 +195,28 @@ export default function TeamGrid() {
                             className="tag tag-m tag-bg permanent"
                           >
                             <TextScramble className="mxd-scramble">
-                              Linkedin
+                              Delivery
                             </TextScramble>
                           </a>
                           <a
-                            href="https://www.behance.net/"
-                            target="_blank"
+                            href="/contact"
                             className="tag tag-m tag-bg permanent"
                           >
                             <TextScramble className="mxd-scramble">
-                              Behance
+                              Contact
                             </TextScramble>
                           </a>
                         </div>
                       </div>
                       <div className="mxd-team-grid__caption">
                         <div className="mxd-team-grid__name">
-                          <p className="project-name-m">Jenny Berry</p>
+                          <p className="project-name-m">
+                            Site execution oversight
+                          </p>
                         </div>
                         <div className="mxd-team-grid__position">
                           <span className="tag tag-m tag-medium">
-                            Frontend Developer
+                            Trade flow, quality checks, handover
                           </span>
                         </div>
                       </div>

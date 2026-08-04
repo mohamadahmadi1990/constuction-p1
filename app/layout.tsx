@@ -37,15 +37,7 @@ export default async function RootLayout({
       color-scheme={initialTheme}
       suppressHydrationWarning
     >
-      <body
-        className={`${manrope.variable} ${jetbrainsMono.variable}`}
-        style={
-          {
-            "--_font-default": "var(--font-manrope)",
-            "--_font-accent": "var(--font-jetbrains-mono)",
-          } as React.CSSProperties
-        }
-      >
+      <body className={`${manrope.variable} ${jetbrainsMono.variable}`}>
         <TemplateRuntimeProvider>
           <Header1 initialTheme={initialTheme} />
           <MenuRuntimeShell />

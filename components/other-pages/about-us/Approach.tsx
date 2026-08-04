@@ -29,13 +29,13 @@ export default function Approach() {
                           className="manifest manifest-s mxd-split-lines"
                           animation="splitLines"
                         >
-                          From pixel-perfect designs to flawless code, every
-                          aspect of our projects is crafted with care to ensure
-                          the highest standards of quality.
+                          We believe the strongest projects happen when
+                          architecture, construction, and budget decisions move
+                          together from the start.
                           <span>
-                            We stay ahead of design trends, offering modern and
-                            visually impactful solutions that set your brand
-                            apart.
+                            That alignment protects design intent, reduces
+                            friction on site, and creates a calmer path from
+                            concept to completion.
                           </span>
                         </CommonAnimatedText>
                       </div>
@@ -49,7 +49,7 @@ export default function Approach() {
                           as="p"
                           animation="inUp"
                         >
-                          <span>/ Some stats</span>
+                          <span>/ Key stats</span>
                         </CommonScrollAnimated>
                       </div>
                       {/* Statistics Lines Start */}
@@ -57,37 +57,37 @@ export default function Approach() {
                         {/* statistics single item */}
                         <MxdStatsLineItem>
                           <div className="mxd-stats-lines__number">
-                            <p id="stats-counter-1">50+</p>
+                            <p id="stats-counter-1">01</p>
                           </div>
                           <div className="mxd-stats-lines__caption">
-                            <p>Happy clients who trust our work</p>
+                            <p>One coordinated workflow from briefing and drawings to site delivery and handover</p>
                           </div>
                         </MxdStatsLineItem>
                         {/* statistics single item */}
                         <MxdStatsLineItem>
                           <div className="mxd-stats-lines__number">
-                            <p id="stats-counter-2">94%</p>
+                            <p id="stats-counter-2">02</p>
                           </div>
                           <div className="mxd-stats-lines__caption">
-                            <p>Clients come back for a new projects</p>
+                            <p>Residential expertise across custom homes, renovations, and low-rise multi-unit work</p>
                           </div>
                         </MxdStatsLineItem>
                         {/* statistics single item */}
                         <MxdStatsLineItem>
                           <div className="mxd-stats-lines__number">
-                            <p id="stats-counter-3">7+</p>
+                            <p id="stats-counter-3">03</p>
                           </div>
                           <div className="mxd-stats-lines__caption">
-                            <p>Years of professional experience</p>
+                            <p>Commercial coordination for fit-outs, tenant improvements, and interior build-outs</p>
                           </div>
                         </MxdStatsLineItem>
                         {/* statistics single item */}
                         <MxdStatsLineItem>
                           <div className="mxd-stats-lines__number">
-                            <p id="stats-counter-4">80+</p>
+                            <p id="stats-counter-4">04</p>
                           </div>
                           <div className="mxd-stats-lines__caption">
-                            <p>Successfully completed projects</p>
+                            <p>Field-led execution with scheduling, quality reviews, and clear client communication</p>
                           </div>
                         </MxdStatsLineItem>
                       </div>

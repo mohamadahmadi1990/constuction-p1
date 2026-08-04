@@ -9,7 +9,7 @@ import CommonServicesStack, {
 
 const IMG_W = 1200;
 const IMG_H = 1300;
-const IMG_ALT = "Azurio Template Sample Image";
+const IMG_ALT = "Construction and architecture service image";
 
 type Card = {
   subtitle: string;
@@ -32,7 +32,7 @@ const CARDS: Card[] = [
       ["residental"],
     ],
     tagVariant: "meta",
-    image: "/img/services/services-stack/s1.webp",
+    image: "/img/about-us-modern/modern-house-01.jpg",
     descrClass: "services-card__descr services-card__descr--list",
     descr: (
       <>
@@ -52,7 +52,7 @@ const CARDS: Card[] = [
       ["Renovation", "Residential"],
       ["In-house", "On-Site"],
     ],
-    image: "/img/services/services-stack/s2.webp",
+    image: "/img/about-us-modern/staircase-interior.jpg",
     descrClass: "services-card__descr services-card__descr--list",
     descr: (
       <>
@@ -89,7 +89,7 @@ const CARDS: Card[] = [
       ["Brand strategy", "Logo design", "Guidelines"],
       ["Visual identity", "Rebranding"],
     ],
-    image: "/img/services/services-stack/s3.webp",
+    image: "/img/about-us-modern/office-facade.jpg",
     descrClass: "services-card__descr services-card__descr--list",
     descr: (
       <>
@@ -119,7 +119,7 @@ const CARDS: Card[] = [
       ["Turnkey planning", "interior design"],
       ["commercial spaces", "residential"],
     ],
-    image: "/img/services/services-stack/s4.webp",
+    image: "/img/about-us-modern/material-palette.jpg",
     descrClass: "services-card__descr services-card__descr--list",
     descr: (
       <>
