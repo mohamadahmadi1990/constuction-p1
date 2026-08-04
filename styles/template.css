@@ -1,0 +1,170 @@
+/* Template styles - same order as the original HTML link tags. */
+/* Paths are relative to this file; assets in url() inside those CSS files resolve from public/css/. */
+@import "../public/css/loader.css";
+@import "../public/css/plugins.css";
+@import "../public/css/main.css";
+@import "./menu-open.css";
+.image-auto {
+  /* width: auto !important; */
+  height: auto !important;
+}
+
+/* Services stack: main.css .line { translateY(100%) } applies vendor-prefixed transforms; GSAP's
+   y uses unprefixed transform - boxes and painted text desync. Neutralize so only inline GSAP owns y. */
+.mxd-stack-services .services-card__title .line,
+.mxd-stack-services .services-card__descr .line {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.mxd-stack-services .services-card__details {
+  opacity: 0;
+}
+
+.mxd-stack-services .services-card__content {
+  padding-bottom: 1.8rem;
+}
+
+.mxd-stack-services .services-card__title {
+  margin-bottom: 1.8rem;
+}
+
+.mxd-stack-services .services-card__lead {
+  max-width: 44rem;
+  margin-bottom: 1.2rem;
+  font: normal 500 1.85rem/1.38 var(--_font-default);
+  letter-spacing: -0.02rem;
+  color: var(--t-bright);
+}
+
+.mxd-stack-services .services-card__details .services-card__tags {
+  max-width: 46rem;
+  margin-bottom: 0;
+  opacity: 1;
+}
+
+.mxd-stack-services .services-card__tags--meta {
+  gap: 2.8rem;
+}
+
+.mxd-stack-services .services-card__tags--meta .tag {
+  white-space: normal;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  letter-spacing: 0.08em;
+}
+
+.mxd-stack-services .services-card__descr--list {
+  max-width: 58rem;
+  margin-top: 2.2rem;
+  color: var(--t-medium);
+}
+
+.mxd-stack-services .services-card__descr--list > .services-card__bullet-item {
+  position: relative;
+  display: block;
+  padding-left: 1.4rem;
+  font: normal 400 1.6rem/1.42 var(--_font-default);
+}
+
+.mxd-stack-services .services-card__descr--list > .services-card__bullet-item + .services-card__bullet-item {
+  margin-top: 0.2rem;
+}
+
+.mxd-stack-services .services-card__descr--list > .services-card__bullet-item::before {
+  content: "\2022";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--t-medium);
+}
+
+@media only screen and (min-width: 768px) {
+  .mxd-stack-services .services-card__tags--meta {
+    gap: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mxd-stack-services .services-card__content {
+    padding-bottom: 2.6rem;
+  }
+
+  .mxd-stack-services .services-card__title {
+    margin-bottom: 2.6rem;
+  }
+
+  .mxd-stack-services .services-card__lead {
+    max-width: 48rem;
+    margin-bottom: 1rem;
+    font-size: 1.95rem;
+  }
+
+  .mxd-stack-services .services-card__details .services-card__tags {
+    max-width: 48rem;
+  }
+
+  .mxd-stack-services .services-card__descr--list {
+    max-width: 62rem;
+    margin-top: 2.4rem;
+  }
+
+  .mxd-stack-services .services-card__descr--list > .services-card__bullet-item {
+    font-size: 1.65rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .mxd-stack-services .services-card__content {
+    padding-bottom: 3rem;
+  }
+
+  .mxd-stack-services .services-card__title {
+    margin-bottom: 2.8rem;
+  }
+
+  .mxd-stack-services .services-card__lead {
+    max-width: 52rem;
+    font-size: 2.05rem;
+  }
+
+  .mxd-stack-services .services-card__descr--list {
+    max-width: 68rem;
+    margin-top: 2.8rem;
+  }
+
+  .mxd-stack-services .services-card__descr--list > .services-card__bullet-item {
+    font-size: 1.75rem;
+  }
+}
+
+/* Preview / landing demo stack - same global .line + SplitText as services stack */
+.mxd-demo-stack .demo-card__title .line,
+.mxd-demo-stack .demo-card__descr .line {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+/* Overlay menu: active section - theme accent on label / index / arrow (no background) */
+.mxd-menu .main-menu__item.main-menu__item--current .main-menu__number {
+  color: var(--accent);
+}
+.mxd-menu .main-menu__item.main-menu__item--current .main-menu__caption {
+  color: var(--accent);
+}
+.mxd-menu .main-menu__item.main-menu__item--current .main-menu__toggle svg {
+  fill: var(--accent);
+}
+.mxd-menu .main-menu__item.main-menu__item--current.open .main-menu__caption {
+  color: var(--accent);
+}
+.no-touch .mxd-menu .main-menu__item.main-menu__item--current .main-menu__toggle:hover .main-menu__caption {
+  color: var(--accent);
+}
+.no-touch .mxd-menu .main-menu__item.main-menu__item--current .main-menu__toggle:hover svg {
+  fill: var(--accent);
+}
