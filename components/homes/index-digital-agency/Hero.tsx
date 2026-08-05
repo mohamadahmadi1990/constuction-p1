@@ -15,6 +15,7 @@ import CommonHero3DImages, {
   CommonHero3DIntroText,
   CommonHero3DOutroText,
 } from "@/components/animations/CommonHero3DImages";
+import { ArrowDownIcon } from "@/components/icons/UiIcons";
 export default function Hero() {
   return (
     <CommonLoadAnimation>
@@ -278,19 +279,13 @@ export default function Hero() {
                       className="btn btn-line-icon btn-line-permanent slide-down"
                       targetId="about"
                     >
-                      <TextScramble className="btn-caption mxd-scramble">
-                        Scroll to explore
-                      </TextScramble>
-                      <i>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          version="1.1"
-                          viewBox="0 0 18 18"
-                        >
-                          <path d="M18,10.8h-3.6v-3.6h3.6v3.6ZM7.2,14.4v3.6h3.6v-3.6h3.6v-3.6h-3.6V0h-3.6v10.8h-3.6v3.6s3.6,0,3.6,0ZM3.6,10.8v-3.6H0v3.6h3.6Z" />
-                        </svg>
-                      </i>
-                    </SmoothAnchorLink>
+                        <TextScramble className="btn-caption mxd-scramble">
+                          Scroll to explore
+                        </TextScramble>
+                        <i>
+                          <ArrowDownIcon />
+                        </i>
+                      </SmoothAnchorLink>
                   </div>
                 </CommonLoadFade>
               </div>

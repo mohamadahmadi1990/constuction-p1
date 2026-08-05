@@ -7,7 +7,7 @@
 
 body {
   --_font-default: var(--font-manrope);
-  --_font-accent: var(--font-jetbrains-mono);
+  --_font-accent: var(--font-barlow);
 }
 
 .divider-image-about-01 {

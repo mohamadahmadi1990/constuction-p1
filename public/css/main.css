@@ -104,7 +104,7 @@
 :root {
   --_size: 1.6rem;
   --_font-default: "Manrope", sans-serif;
-  --_font-accent: "JetBrains Mono", sans-serif;
+  --_font-accent: var(--font-barlow), sans-serif;
   --_animspeed-fast: 0.1s;
   --_animspeed-medium: 0.3s;
   --_animspeed-slow: 0.6s;
@@ -5345,7 +5345,8 @@ form textarea:required:valid {
 .mxd-color-switcher svg {
   width: 2.1rem;
   height: 2.1rem;
-  fill: currentColor;
+  fill: none;
+  stroke: currentColor;
 }
 .mxd-color-switcher .switcher-text {
   display: none;
@@ -5374,8 +5375,8 @@ form textarea:required:valid {
       -moz-transform var(--_animspeed-medium) var(--_animbezier);
   }
   .mxd-color-switcher .switcher-icon.night svg {
-    width: 1.7rem;
-    height: 1.7rem;
+    width: 1.8rem;
+    height: 1.8rem;
   }
   .mxd-color-switcher .switcher-text {
     display: -webkit-inline-box;

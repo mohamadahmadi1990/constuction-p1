@@ -1,5 +1,5 @@
 import "@/styles/template.css";
-import { JetBrains_Mono, Manrope } from "next/font/google";
+import { Barlow, Manrope } from "next/font/google";
 import Header1 from "@/components/headers/Header1";
 import TemplateRuntimeProvider from "@/components/common/TemplateRuntimeProvider";
 import MenuRuntimeShell from "@/components/headers/MenuRuntimeShell";
@@ -11,9 +11,10 @@ const manrope = Manrope({
   variable: "--font-manrope",
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const barlow = Barlow({
   subsets: ["latin"],
-  variable: "--font-jetbrains-mono",
+  variable: "--font-barlow",
+  weight: ["100"],
 });
 
 export const metadata: Metadata = {
@@ -37,7 +38,9 @@ export default async function RootLayout({
       color-scheme={initialTheme}
       suppressHydrationWarning
     >
-      <body className={`${manrope.variable} ${jetbrainsMono.variable}`}>
+      <body
+        className={`${manrope.variable} ${barlow.variable}`}
+      >
         <TemplateRuntimeProvider>
           <Header1 initialTheme={initialTheme} />
           <MenuRuntimeShell />

@@ -69,7 +69,7 @@
   align-items: center;
   z-index: 1000;
   font:
-    normal 600 1.4rem/1.6 "JetBrains Mono",
+    normal 600 1.4rem/1.6 var(--_font-accent),
     sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
