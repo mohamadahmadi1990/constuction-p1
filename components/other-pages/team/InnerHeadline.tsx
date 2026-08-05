@@ -9,6 +9,7 @@ import CommonLoadAnimation, {
 import CommonAnimatedText from "@/components/animations/CommonAnimatedText";
 import TextScramble from "@/components/animations/TextScramble";
 import SmoothAnchorLink from "@/components/common/SmoothAnchorLink";
+import { TEAM_IMAGES } from "./teamContent";
 
 export default function InnerHeadline() {
   return (
@@ -22,10 +23,10 @@ export default function InnerHeadline() {
                 <div className="inner-headline fullheight">
                   <div className="inner-headline__bg">
                     <Image
-                      alt="Azurio Template Sample Image"
-                      src="/img/backgrounds/1920x1280_bg01.webp"
-                      width={1920}
-                      height={1280}
+                      alt={TEAM_IMAGES.hero.alt}
+                      src={TEAM_IMAGES.hero.src}
+                      width={TEAM_IMAGES.hero.width}
+                      height={TEAM_IMAGES.hero.height}
                     />
                     <div className="inner-headline__cover" />
                   </div>
@@ -70,7 +71,7 @@ export default function InnerHeadline() {
                                           targetId="about-team"
                                         >
                                           <TextScramble className="btn-caption mxd-scramble">
-                                            Our Team
+                                            Meet the Team
                                           </TextScramble>
                                         </SmoothAnchorLink>
                                       </div>
@@ -81,8 +82,8 @@ export default function InnerHeadline() {
                                         className="medium permanent loading-split"
                                         animation="splitLinesLoad"
                                       >
-                                        Talented minds
-                                        <span>shaping our vision</span>
+                                        The people behind
+                                        <span> every build decision</span>
                                       </CommonAnimatedText>
                                     </div>
                                   </div>

@@ -9,6 +9,7 @@ import CommonLoadAnimation, {
 import CommonAnimatedText from "@/components/animations/CommonAnimatedText";
 import TextScramble from "@/components/animations/TextScramble";
 import SmoothAnchorLink from "@/components/common/SmoothAnchorLink";
+import { WORKS_DEFAULT_IMAGES } from "./portfolioContent";
 
 export default function InnerHeadline() {
   return (
@@ -22,10 +23,10 @@ export default function InnerHeadline() {
                 <div className="inner-headline fullheight">
                   <div className="inner-headline__bg">
                     <Image
-                      alt="Azurio Template Sample Image"
-                      src="/img/backgrounds/1920x1280_bg02.webp"
-                      width={1920}
-                      height={1280}
+                      alt={WORKS_DEFAULT_IMAGES.hero.alt}
+                      src={WORKS_DEFAULT_IMAGES.hero.src}
+                      width={WORKS_DEFAULT_IMAGES.hero.width}
+                      height={WORKS_DEFAULT_IMAGES.hero.height}
                     />
                     <div className="inner-headline__cover" />
                   </div>
@@ -44,7 +45,7 @@ export default function InnerHeadline() {
                                     </TextScramble>
                                   </Link>
                                 </span>
-                                <span className="current-item">Works </span>
+                                <span className="current-item">Projects </span>
                               </div>
                             </div>
                           </CommonLoadFade>
@@ -70,7 +71,7 @@ export default function InnerHeadline() {
                                           targetId="portfolio"
                                         >
                                           <TextScramble className="btn-caption mxd-scramble">
-                                            Portfolio
+                                            Selected Work
                                           </TextScramble>
                                         </SmoothAnchorLink>
                                       </div>
@@ -81,7 +82,8 @@ export default function InnerHeadline() {
                                         className="medium permanent loading-split"
                                         animation="splitLinesLoad"
                                       >
-                                        Where bold ideas <span>take shape</span>
+                                        Built work with
+                                        <span> design discipline</span>
                                       </CommonAnimatedText>
                                     </div>
                                   </div>

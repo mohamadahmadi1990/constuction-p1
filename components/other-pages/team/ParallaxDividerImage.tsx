@@ -12,13 +12,11 @@ export default function ParallaxDividerImage() {
           <div className="mxd-divider">
             {/* image */}
             <UkiyoParallax
-              className="mxd-divider__image divider-image-1 parallax-img"
+              className="mxd-divider__image divider-image-team-01 parallax-img"
               scale={1.4}
               speed={1.5}
               externalRAF={false}
-            >
-              {/* <Image class="parallax-img" src="/img/illustrations/1920x1080_divider-01.webp" alt=""> */}
-            </UkiyoParallax>
+            />
             {/* cover layer */}
             <div className="mxd-divider__cover cover-04" />
             {/* content */}
@@ -33,7 +31,7 @@ export default function ParallaxDividerImage() {
                   href={`/contact`}
                 >
                   <TextScramble className="btn-caption mxd-scramble">
-                    Contact Us
+                    Book a Consultation
                   </TextScramble>
                 </Link>
               </CommonScrollAnimated>
@@ -48,7 +46,7 @@ export default function ParallaxDividerImage() {
                     className="permanent reveal-type"
                     animation="revealType"
                   >
-                    Small but powerful team
+                    A coordinated team for design and delivery
                   </CommonAnimatedText>
                 </Link>
               </div>

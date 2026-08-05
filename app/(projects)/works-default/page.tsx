@@ -6,8 +6,9 @@ import ParallaxDividerVideo from "@/components/projects/works-default/ParallaxDi
 import TestimonialsSticky from "@/components/projects/works-default/TestimonialsSticky";
 import CTAWithMarquee from "@/components/projects/works-default/CTAWithMarquee";
 export const metadata: Metadata = {
-  title: "Works Default | Azurio - Digital Agency & Portfolio NextJs Template",
-  description: "Azurio - Digital Agency & Portfolio NextJs Template",
+  title: "Projects | Construction & Architecture",
+  description:
+    "Explore selected construction and architecture projects across custom homes, renovations, commercial fit-outs, and multi-unit planning.",
 };
 export default function WorksDefaultPage() {
   return (
