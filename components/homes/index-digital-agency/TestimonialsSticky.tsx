@@ -24,9 +24,9 @@ export default function TestimonialsSticky() {
                               className="reveal-type"
                               animation="revealType"
                             >
-                              Few words
+                              Voices
                               <br />
-                              from our clients
+                              from clients & partners
                             </CommonAnimatedText>
                           </div>
                           <CommonScrollAnimated
@@ -100,7 +100,7 @@ export default function TestimonialsSticky() {
                                   href="#0"
                                 >
                                   <TextScramble className="btn-caption mxd-scramble">
-                                    Project Page
+                                    Case Study
                                   </TextScramble>
                                   <i>
                                     <svg
@@ -116,28 +116,29 @@ export default function TestimonialsSticky() {
                             </div>
                             <div className="mxd-testimonials-card__content">
                               <p className="mxd-testimonials-card__descr">
-                                Working with Azurio team was
-                                <span>an absolute pleasure!</span>
+                                The team brought clarity to every decision,
+                                from approvals to finishes,
+                                <span> and the build felt organized from day one.</span>
                               </p>
                             </div>
                             <div className="mxd-testimonials-card__author">
                               <div className="mxd-testimonials-card__photo">
                                 <Image
-                                  alt="Azurio Template Example Image"
-                                  src="/img/avatars/300x300_ava-01.webp"
+                                  alt="Project planning session detail"
+                                  src="/img/about-us-modern/blueprint-hands.jpg"
                                   width={300}
                                   height={300}
                                 />
                               </div>
                               <div className="mxd-testimonials-card__data">
                                 <p className="mxd-testimonials-card__name">
-                                  John Lemon
+                                  Mina Farahani
                                 </p>
                                 <p className="mxd-testimonials-card__position">
-                                  Brand manager in
+                                  Homeowner at
                                   <a href="#">
                                     <TextScramble className="mxd-scramble">
-                                      Instant design
+                                      Forest Hill Residence
                                     </TextScramble>
                                   </a>
                                 </p>
@@ -152,8 +153,8 @@ export default function TestimonialsSticky() {
                               animation="clipImage"
                             >
                               <Image
-                                alt="Azurio Template Example Image"
-                                src="/img/avatars/800x800_ava-01.webp"
+                                alt="Contemporary residence exterior"
+                                src="/img/about-us-modern/modern-house-01.jpg"
                                 width={800}
                                 height={800}
                               />
@@ -180,7 +181,7 @@ export default function TestimonialsSticky() {
                                     href="#0"
                                   >
                                     <TextScramble className="btn-caption mxd-scramble">
-                                      Project Page
+                                      Case Study
                                     </TextScramble>
                                     <i>
                                       <svg
@@ -195,32 +196,32 @@ export default function TestimonialsSticky() {
                                 </div>
                               </div>
                               <p className="mxd-testimonials-card__descr">
-                                Azurio team took the time to understand our
-                                business needs{" "}
+                                They understood the investment logic, the target
+                                buyer, and the technical constraints{" "}
                                 <span>
-                                  and translated them into a beautifully
-                                  designed, user-friendly website.
+                                  before translating the brief into a clean,
+                                  buildable package.
                                 </span>
                               </p>
                             </div>
                             <div className="mxd-testimonials-card__author">
                               <div className="mxd-testimonials-card__photo">
                                 <Image
-                                  alt="Azurio Template Example Image"
-                                  src="/img/avatars/300x300_ava-02.webp"
+                                  alt="Material and finish palette"
+                                  src="/img/about-us-modern/material-palette.jpg"
                                   width={300}
                                   height={300}
                                 />
                               </div>
                               <div className="mxd-testimonials-card__data">
                                 <p className="mxd-testimonials-card__name">
-                                  Ashley Cherry
+                                  Daniel Brooks
                                 </p>
                                 <p className="mxd-testimonials-card__position">
-                                  SEO in
+                                  Development lead at
                                   <a href="#">
                                     <TextScramble className="mxd-scramble">
-                                      Eye Candy
+                                      Northline Living
                                     </TextScramble>
                                   </a>
                                 </p>
@@ -243,8 +244,8 @@ export default function TestimonialsSticky() {
                               animation="clipImage"
                             >
                               <Image
-                                alt="Azurio Template Example Image"
-                                src="/img/avatars/800x800_ava-02.webp"
+                                alt="Architectural corridor with refined detailing"
+                                src="/img/about-us-modern/glass-corridor.jpg"
                                 width={800}
                                 height={800}
                               />
@@ -270,7 +271,7 @@ export default function TestimonialsSticky() {
                                   href="#0"
                                 >
                                   <TextScramble className="btn-caption mxd-scramble">
-                                    Project Page
+                                     Case Study
                                   </TextScramble>
                                   <i>
                                     <svg
@@ -286,34 +287,33 @@ export default function TestimonialsSticky() {
                             </div>
                             <div className="mxd-testimonials-card__content">
                               <p className="mxd-testimonials-card__descr">
-                                The Azurio team nailed it! They understood our
-                                vision{" "}
+                                Design intent stayed intact through detailing and
+                                procurement, and the final result feels{" "}
                                 <span>
-                                  and delivered a sleek, intuitive site that our
-                                  clients love.
+                                  calm, precise, and completely resolved.
                                 </span>
                               </p>
                             </div>
                             <div className="mxd-testimonials-card__author">
                               <div className="mxd-testimonials-card__photo">
                                 <Image
-                                  alt="Azurio Template Example Image"
-                                  src="/img/avatars/300x300_ava-03.webp"
+                                 alt="Blueprint coordination meeting"
+                                 src="/img/about-us-modern/blueprint-meeting.jpg"
                                   width={300}
                                   height={300}
                                 />
                               </div>
                               <div className="mxd-testimonials-card__data">
                                 <p className="mxd-testimonials-card__name">
-                                  Lea Tomato
+                                   Sara Bennett
                                 </p>
                                 <p className="mxd-testimonials-card__position">
-                                  Senior designer in
-                                  <a href="#">
-                                    <TextScramble className="mxd-scramble">
-                                      The Way
-                                    </TextScramble>
-                                  </a>
+                                   Project architect at
+                                   <a href="#">
+                                     <TextScramble className="mxd-scramble">
+                                       Atelier Frame
+                                     </TextScramble>
+                                   </a>
                                 </p>
                               </div>
                             </div>
@@ -327,8 +327,8 @@ export default function TestimonialsSticky() {
                               animation="clipImage"
                             >
                               <Image
-                                alt="Azurio Template Example Image"
-                                src="/img/avatars/800x800_ava-03.webp"
+                                alt="Refined stair hall interior"
+                                src="/img/about-us-modern/future-stair-hall.jpg"
                                 width={800}
                                 height={800}
                               />
@@ -361,7 +361,7 @@ export default function TestimonialsSticky() {
                                     href="#0"
                                   >
                                     <TextScramble className="btn-caption mxd-scramble">
-                                      Project Page
+                                      Case Study
                                     </TextScramble>
                                     <i>
                                       <svg
@@ -376,32 +376,32 @@ export default function TestimonialsSticky() {
                                 </div>
                               </div>
                               <p className="mxd-testimonials-card__descr">
-                                The team attention to detail, creativity, and
-                                technical expertise exceeded our expectations.
+                                Communication on site was fast, practical, and
+                                detail-oriented,
                                 <span>
-                                  We have received so much positive feedback
-                                  from our customers already.
+                                  which made coordination with trades much
+                                  smoother than usual.
                                 </span>
                               </p>
                             </div>
                             <div className="mxd-testimonials-card__author">
                               <div className="mxd-testimonials-card__photo">
                                 <Image
-                                  alt="Azurio Template Example Image"
-                                  src="/img/avatars/300x300_ava-04.webp"
+                                  alt="Facade study detail"
+                                  src="/img/about-us-modern/facade-stripes.jpg"
                                   width={300}
                                   height={300}
                                 />
                               </div>
                               <div className="mxd-testimonials-card__data">
                                 <p className="mxd-testimonials-card__name">
-                                  Patrick Pineapple
+                                  Omar Haddad
                                 </p>
                                 <p className="mxd-testimonials-card__position">
-                                  SEO in
+                                  Construction manager at
                                   <a href="#">
                                     <TextScramble className="mxd-scramble">
-                                      Instant design
+                                      Cedar Build Group
                                     </TextScramble>
                                   </a>
                                 </p>
@@ -428,7 +428,7 @@ export default function TestimonialsSticky() {
                                   href="#0"
                                 >
                                   <TextScramble className="btn-caption mxd-scramble">
-                                    Project Page
+                                    Case Study
                                   </TextScramble>
                                   <i>
                                     <svg
@@ -444,30 +444,32 @@ export default function TestimonialsSticky() {
                             </div>
                             <div className="mxd-testimonials-card__content">
                               <p className="mxd-testimonials-card__descr">
-                                Amazing experience!
+                                Elegant design choices were matched with
+                                practical coordination,
                                 <span>
-                                  Our new website truly reflects our brand.
+                                  so selections looked beautiful without
+                                  slowing down execution.
                                 </span>
                               </p>
                             </div>
                             <div className="mxd-testimonials-card__author">
                               <div className="mxd-testimonials-card__photo">
                                 <Image
-                                  alt="Azurio Template Example Image"
-                                  src="/img/avatars/300x300_ava-05.webp"
+                                  alt="Landscape and villa detail"
+                                  src="/img/about-us-modern/villa-water-feature.jpg"
                                   width={300}
                                   height={300}
                                 />
                               </div>
                               <div className="mxd-testimonials-card__data">
                                 <p className="mxd-testimonials-card__name">
-                                  Mary Cucumber
+                                  Elena Park
                                 </p>
                                 <p className="mxd-testimonials-card__position">
-                                  Brand manager in
+                                  Interior consultant at
                                   <a href="#">
                                     <TextScramble className="mxd-scramble">
-                                      Hyper
+                                      Studio Vale
                                     </TextScramble>
                                   </a>
                                 </p>
@@ -482,8 +484,8 @@ export default function TestimonialsSticky() {
                               animation="clipImage"
                             >
                               <Image
-                                alt="Azurio Template Example Image"
-                                src="/img/avatars/800x800_ava-04.webp"
+                                alt="Contemporary tower balcony composition"
+                                src="/img/about-us-modern/curved-balcony-tower.jpg"
                                 width={800}
                                 height={800}
                               />

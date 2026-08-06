@@ -26,7 +26,7 @@ export default function ServicesList() {
                           className="reveal-type"
                           animation="revealType"
                         >
-                          Intersection of art &amp; technology
+                          Project scope from concept to handover
                         </CommonAnimatedText>
                       </div>
                     </div>
@@ -42,7 +42,7 @@ export default function ServicesList() {
                             href={`/services`}
                           >
                             <TextScramble className="btn-caption mxd-scramble">
-                              All Services
+                              Full Services
                             </TextScramble>
                           </Link>
                         </CommonScrollAnimated>
@@ -59,7 +59,7 @@ export default function ServicesList() {
                 {/* services item */}
                 <Link
                   className="mxd-services-list__item active-cursor-image-tr"
-                  data-cursor-image="/img/services/500x500_s01.webp"
+                  data-cursor-image="/img/about-us-modern/blueprint-hands.jpg"
                   href={`/services`}
                 >
                   <div className="mxd-services-list__divider top" />
@@ -72,15 +72,15 @@ export default function ServicesList() {
                       </div>
                       <div className="col-12 col-xl-6 mxd-grid-padding">
                         <div className="mxd-services-list__title">
-                          <h3>Graphic design</h3>
+                          <h3>Site planning &amp; feasibility</h3>
                         </div>
                       </div>
                       <div className="col-12 col-xl-5 mxd-grid-padding">
                         <div className="mxd-services-list__descr">
                           <p className="t-medium">
-                            We create visually compelling designs that enhance
-                            user experience. We make sure your brand&apos;s
-                            visuals resonate with your audience.
+                            Existing conditions, zoning awareness, massing
+                            direction, and budget-fit decisions are organized
+                            early so the project can move with confidence.
                           </p>
                         </div>
                       </div>
@@ -91,7 +91,7 @@ export default function ServicesList() {
                 {/* services item */}
                 <Link
                   className="mxd-services-list__item active-cursor-image-tr"
-                  data-cursor-image="/img/services/500x500_s02.webp"
+                  data-cursor-image="/img/about-us-modern/modern-house-01.jpg"
                   href={`/services`}
                 >
                   <div className="mxd-services-list__divider top" />
@@ -104,16 +104,15 @@ export default function ServicesList() {
                       </div>
                       <div className="col-12 col-xl-6 mxd-grid-padding">
                         <div className="mxd-services-list__title">
-                          <h3>Creative development</h3>
+                          <h3>Custom homes &amp; low-rise builds</h3>
                         </div>
                       </div>
                       <div className="col-12 col-xl-5 mxd-grid-padding">
                         <div className="mxd-services-list__descr">
                           <p className="t-medium">
-                            We build high-performance websites and applications
-                            using modern technologies. Our solutions are
-                            designed to be scalable and functional for optimal
-                            performance.
+                            Detached homes, townhouses, and boutique multi-unit
+                            projects are designed and detailed with a focus on
+                            livability, proportion, and long-term durability.
                           </p>
                         </div>
                       </div>
@@ -124,7 +123,7 @@ export default function ServicesList() {
                 {/* services item */}
                 <Link
                   className="mxd-services-list__item active-cursor-image-tr"
-                  data-cursor-image="/img/services/500x500_s03.webp"
+                  data-cursor-image="/img/about-us-modern/glass-corridor.jpg"
                   href={`/services`}
                 >
                   <div className="mxd-services-list__divider top" />
@@ -137,15 +136,15 @@ export default function ServicesList() {
                       </div>
                       <div className="col-12 col-xl-6 mxd-grid-padding">
                         <div className="mxd-services-list__title">
-                          <h3>Digital marketing solutions</h3>
+                          <h3>Interior renovations &amp; fit-outs</h3>
                         </div>
                       </div>
                       <div className="col-12 col-xl-5 mxd-grid-padding">
                         <div className="mxd-services-list__descr">
                           <p className="t-medium">
-                            SEO and content marketing, social media management
-                            and paid campaigns - we help you reach and engage
-                            your target audience effectively.
+                            Kitchens, bathrooms, full-floor reconfigurations,
+                            and modern workspace interiors are coordinated for
+                            better flow, finish quality, and day-to-day use.
                           </p>
                         </div>
                       </div>
@@ -156,7 +155,7 @@ export default function ServicesList() {
                 {/* services item */}
                 <Link
                   className="mxd-services-list__item active-cursor-image-tr"
-                  data-cursor-image="/img/services/500x500_s04.webp"
+                  data-cursor-image="/img/about-us-modern/material-palette.jpg"
                   href={`/services`}
                 >
                   <div className="mxd-services-list__divider top" />
@@ -169,16 +168,15 @@ export default function ServicesList() {
                       </div>
                       <div className="col-12 col-xl-6 mxd-grid-padding">
                         <div className="mxd-services-list__title">
-                          <h3>Brand identity</h3>
+                          <h3>Permit drawings &amp; selections</h3>
                         </div>
                       </div>
                       <div className="col-12 col-xl-5 mxd-grid-padding">
                         <div className="mxd-services-list__descr">
                           <p className="t-medium">
-                            From logo design to comprehensive brand strategies,
-                            we ensure your business stands out with a unique
-                            visual identity and consistent messaging across all
-                            touchpoints.
+                            Detailed drawing packages, specification direction,
+                            fixture schedules, and finish selections keep
+                            approvals and procurement aligned.
                           </p>
                         </div>
                       </div>
@@ -189,7 +187,7 @@ export default function ServicesList() {
                 {/* services item */}
                 <Link
                   className="mxd-services-list__item active-cursor-image-tr"
-                  data-cursor-image="/img/services/500x500_s05.webp"
+                  data-cursor-image="/img/about-us-modern/office-facade.jpg"
                   href={`/services`}
                 >
                   <div className="mxd-services-list__divider top" />
@@ -202,15 +200,15 @@ export default function ServicesList() {
                       </div>
                       <div className="col-12 col-xl-6 mxd-grid-padding">
                         <div className="mxd-services-list__title">
-                          <h3>Long-lasting support</h3>
+                          <h3>Construction supervision &amp; closeout</h3>
                         </div>
                       </div>
                       <div className="col-12 col-xl-5 mxd-grid-padding">
                         <div className="mxd-services-list__descr">
                           <p className="t-medium">
-                            We take the time to understand your unique needs and
-                            create tailored design solutions to help you make an
-                            impact.
+                            Tender review, site visits, deficiency tracking, and
+                            final handover support help protect quality all the
+                            way through completion.
                           </p>
                         </div>
                       </div>

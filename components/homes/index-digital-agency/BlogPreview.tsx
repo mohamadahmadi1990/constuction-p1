@@ -26,9 +26,9 @@ export default function BlogPreview() {
                           className="reveal-type"
                           animation="revealType"
                         >
-                          Featured
+                          Project
                           <br />
-                          news
+                          journal
                         </CommonAnimatedText>
                       </div>
                     </div>
@@ -44,7 +44,7 @@ export default function BlogPreview() {
                             href={`/blog-standard`}
                           >
                             <TextScramble className="btn-caption mxd-scramble">
-                              News Overview
+                              Project Archive
                             </TextScramble>
                           </Link>
                         </CommonScrollAnimated>
@@ -60,18 +60,18 @@ export default function BlogPreview() {
               <div className="mxd-blog-list">
                 <Link
                   className="mxd-blog-list__item active-cursor-image active-cursor-permanent"
-                  data-cursor-image="/img/blog/preview/500x500_pr01.webp"
-                  data-cursor-text="Read Post"
-                  href={`/blog-article`}
+                  data-cursor-image="/img/about-us-modern/blueprint-meeting.jpg"
+                  data-cursor-text="View Note"
+                  href={`/project-details`}
                 >
                   <div className="mxd-blog-list__divider top" />
                   <div className="container-fluid px-0 mxd-blog-list__inner">
                     <div className="row gx-0">
                       <div className="col-12 mxd-grid-padding">
                         <div className="mxd-blog-list__meta">
-                          <span className="meta-tag comma-tag">Press</span>
-                          <span className="meta-tag comma-tag">Insights</span>
-                          <span className="meta-time">5 mins</span>
+                          <span className="meta-tag comma-tag">Journal</span>
+                          <span className="meta-tag comma-tag">Permits</span>
+                          <span className="meta-time">4 mins</span>
                         </div>
                       </div>
                       <div className="col-12 col-xl-7 mxd-grid-padding">
@@ -79,18 +79,18 @@ export default function BlogPreview() {
                           <p>Frontend innovations and user journeys</p>
                           <div className="mxd-blog-list__data">
                             <span className="meta-author comma-tag">
-                              John Lemon
+                              Project architect
                             </span>
-                            <span className="meta-date">02 February, 2026</span>
+                            <span className="meta-date">18 July, 2026</span>
                           </div>
                         </div>
                       </div>
                       <div className="col-12 col-xl-5 mxd-grid-padding">
                         <div className="mxd-blog-list__excerpt">
                           <p className="t-medium">
-                            Discover how artificial intelligence is transforming
-                            artistic processes, pushing boundaries, and
-                            inspiring new possibilities in digital design.
+                            How the permit set was coordinated for a low-rise
+                            infill residence without losing the clarity of the
+                            original architectural concept.
                           </p>
                         </div>
                       </div>
@@ -100,39 +100,40 @@ export default function BlogPreview() {
                 </Link>
                 <Link
                   className="mxd-blog-list__item active-cursor-image active-cursor-permanent"
-                  data-cursor-image="/img/blog/preview/500x500_pr02.webp"
-                  data-cursor-text="Read Post"
-                  href={`/blog-article`}
+                  data-cursor-image="/img/about-us-modern/material-palette.jpg"
+                  data-cursor-text="View Note"
+                  href={`/project-details`}
                 >
                   <div className="mxd-blog-list__divider top" />
                   <div className="container-fluid px-0 mxd-blog-list__inner">
                     <div className="row gx-0">
                       <div className="col-12 mxd-grid-padding">
                         <div className="mxd-blog-list__meta">
-                          <span className="meta-tag comma-tag">News</span>
-                          <span className="meta-tag comma-tag">Insights</span>
+                          <span className="meta-tag comma-tag">Materials</span>
+                          <span className="meta-tag comma-tag">Interiors</span>
                           <span className="meta-time">3 mins</span>
                         </div>
                       </div>
                       <div className="col-12 col-xl-7 mxd-grid-padding">
                         <div className="mxd-blog-list__title">
                           <p>
-                            Elevating digital workshops with engaging design
+                            Material selections that balanced warmth, durability,
+                            and budget
                           </p>
                           <div className="mxd-blog-list__data">
                             <span className="meta-author comma-tag">
-                              Jenny Pineapple
+                              Interior lead
                             </span>
-                            <span className="meta-date">28 January, 2026</span>
+                            <span className="meta-date">02 August, 2026</span>
                           </div>
                         </div>
                       </div>
                       <div className="col-12 col-xl-5 mxd-grid-padding">
                         <div className="mxd-blog-list__excerpt">
                           <p className="t-medium">
-                            Discover how artificial intelligence is transforming
-                            artistic processes, pushing boundaries, and
-                            inspiring new possibilities in digital design.
+                            A look at the finish palette that brought together
+                            stone, wood, lighting, and hardware across the
+                            public spaces of the project.
                           </p>
                         </div>
                       </div>

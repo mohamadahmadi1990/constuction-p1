@@ -20,75 +20,75 @@ export default function Divider() {
           {/* Effect - Cursor Trail Transparent Start */}
           <CommonCursorTrailWrapper className="mxd-trail-transparent-wrapper">
             <CommonCursorTrailContent className="mxd-trail-transparent-content">
-              <CommonCursorTrailImage
-                index={0}
-                className="mxd-trail-transparent-image"
-                alt="Azurio Template Cursor Trail Image"
-                src="/img/cursor-trail-transparent/01_trail.webp"
-                width={400}
-                height={521}
-              />
+               <CommonCursorTrailImage
+                 index={0}
+                 className="mxd-trail-transparent-image"
+                 alt="Architectural facade detail"
+                 src="/img/about-us-modern/modern-house-01.jpg"
+                 width={400}
+                 height={521}
+               />
               <CommonCursorTrailImage
                 index={1}
                 className="mxd-trail-transparent-image"
-                alt="Azurio Template Cursor Trail Image"
-                src="/img/cursor-trail-transparent/02_trail.webp"
+                 alt="Architectural corridor"
+                 src="/img/about-us-modern/glass-corridor.jpg"
                 width={412}
                 height={400}
               />
               <CommonCursorTrailImage
                 index={2}
                 className="mxd-trail-transparent-image"
-                alt="Azurio Template Cursor Trail Image"
-                src="/img/cursor-trail-transparent/03_trail.webp"
+                 alt="Construction drawings and hands"
+                 src="/img/about-us-modern/blueprint-hands.jpg"
                 width={485}
                 height={400}
               />
               <CommonCursorTrailImage
                 index={3}
                 className="mxd-trail-transparent-image"
-                alt="Azurio Template Cursor Trail Image"
-                src="/img/cursor-trail-transparent/04_trail.webp"
+                 alt="Modern office facade"
+                 src="/img/about-us-modern/office-facade.jpg"
                 width={530}
                 height={400}
               />
               <CommonCursorTrailImage
                 index={4}
                 className="mxd-trail-transparent-image"
-                alt="Azurio Template Cursor Trail Image"
-                src="/img/cursor-trail-transparent/05_trail.webp"
+                 alt="Stone and wood material palette"
+                 src="/img/about-us-modern/material-palette.jpg"
                 width={400}
                 height={520}
               />
               <CommonCursorTrailImage
                 index={5}
                 className="mxd-trail-transparent-image"
-                alt="Azurio Template Cursor Trail Image"
-                src="/img/cursor-trail-transparent/06_trail.webp"
+                 alt="Contemporary staircase interior"
+                 src="/img/about-us-modern/staircase-interior.jpg"
                 width={407}
                 height={400}
               />
               <CommonCursorTrailImage
                 index={6}
                 className="mxd-trail-transparent-image"
-                alt="Azurio Template Cursor Trail Image"
-                src="/img/cursor-trail-transparent/07_trail.webp"
+                 alt="Tower balcony facade"
+                 src="/img/about-us-modern/curved-balcony-tower.jpg"
                 width={400}
                 height={480}
               />
               <CommonCursorTrailImage
                 index={7}
                 className="mxd-trail-transparent-image"
-                alt="Azurio Template Cursor Trail Image"
-                src="/img/cursor-trail-transparent/08_trail.webp"
+                 alt="Landscape and water feature"
+                 src="/img/about-us-modern/villa-water-feature.jpg"
                 width={637}
                 height={400}
               />
               <CommonCursorTrailImage
                 index={8}
                 className="mxd-trail-transparent-image"
-                alt="Azurio Template Cursor Trail Image"
-                src="/img/cursor-trail-transparent/09_trail.webp"
+                 alt="Construction coordination meeting"
+                 src="/img/about-us-modern/blueprint-meeting.jpg"
                 width={400}
                 height={992}
               />
@@ -109,14 +109,14 @@ export default function Divider() {
                     href={`/contact`}
                   >
                     <TextScramble className="btn-caption mxd-scramble">
-                      Contact
+                      Start a project
                     </TextScramble>
                   </Link>
                 </CommonScrollAnimated>
                 <div className="mxd-divider-xl__caption difference">
                   <Link
                     className="active-cursor-accent"
-                    data-cursor-text="Let's Talk"
+                    data-cursor-text="Start Project"
                     href={`/contact`}
                   >
                     <CommonAnimatedText
@@ -124,31 +124,31 @@ export default function Divider() {
                       className="permanent reveal-type"
                       animation="revealType"
                     >
-                      Ready for the game changing project?
+                      Planning a modern home or signature commercial space?
                     </CommonAnimatedText>
                   </Link>
                 </div>
                 <div className="mxd-divider-gif">
                   <div className="mxd-divider-gif__back left accent">
                     <Image
-                      alt="Azurio Template Example Image"
-                      src="/img/gifs/nice-thumbs-up.gif"
+                      alt="Construction drawing detail"
+                      src="/img/about-us-modern/blueprint-hands.jpg"
                       width={640}
                       height={440}
                     />
                   </div>
                   <div className="mxd-divider-gif__front">
                     <Image
-                      alt="Azurio Template Example Image"
-                      src="/img/gifs/nice-thumbs-up.gif"
+                      alt="Architectural material selections"
+                      src="/img/about-us-modern/material-palette.jpg"
                       width={640}
                       height={440}
                     />
                   </div>
                   <div className="mxd-divider-gif__back right accent">
                     <Image
-                      alt="Azurio Template Example Image"
-                      src="/img/gifs/nice-thumbs-up.gif"
+                      alt="Refined interior stair detail"
+                      src="/img/about-us-modern/steel-staircase.jpg"
                       width={640}
                       height={440}
                     />

@@ -11,6 +11,13 @@ export default function ParallaxDividerImage() {
               scale={1.4}
               speed={1.5}
               externalRAF={false}
+              style={{
+                backgroundImage:
+                  "url('/img/about-us-modern/villa-water-feature.jpg')",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+              }}
             />
           </div>
         </div>

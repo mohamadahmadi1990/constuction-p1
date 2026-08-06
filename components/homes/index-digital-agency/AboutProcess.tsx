@@ -21,17 +21,19 @@ export default function AboutProcess() {
                   <div className="col-12 mxd-grid-item">
                     <div className="mxd-section-manifest__wrap wrap-text-m">
                       <div className="mxd-section-manifest__text manifest-text-m">
-                        <Link data-cursor-text="About us" href={`/about-me`}>
+                        <Link data-cursor-text="About us" href={`/about-us`}>
                           <CommonAnimatedText
                             as="span"
                             className="manifest manifest-m manifest-accent mxd-split-lines active-cursor-permanent"
                             animation="splitLines"
                           >
-                            We are a creative web agency specializing in
-                            innovative design and cutting-edge development.
+                            We shape residential and commercial environments with
+                            a process grounded in feasibility, documentation, and
+                            careful site execution.
                             <span>
-                              We help businesses stand out and thrive in the
-                              modern landscape.
+                              From first sketch to final handover, every decision
+                              is made to improve function, durability, and
+                              timeless appeal.
                             </span>
                           </CommonAnimatedText>
                         </Link>
@@ -59,18 +61,18 @@ export default function AboutProcess() {
                       <div className="mxd-process-points__icon accent">
                         <i className="ph ph-crosshair" />
                       </div>
-                      <p className="accent">Strategy</p>
+                      <p className="accent">Discovery</p>
                     </div>
                     <div className="mxd-process-points__descr">
                       <p className="t-medium t-accent">
-                        Discover how artificial intelligence is transforming
-                        artistic processes, pushing boundaries, and inspiring
-                        new possibilities in digital design.
+                        We align program, site conditions, budget, and schedule
+                        before design moves forward, so the project starts with
+                        clear priorities and a realistic path.
                       </p>
                     </div>
                     <div className="mxd-process-points__time">
                       <span className="tag tag-m tag-permanent">
-                        1-2 weeks timeline
+                        pre-design alignment
                       </span>
                     </div>
                   </CommonCardBatchAnimated>
@@ -93,14 +95,14 @@ export default function AboutProcess() {
                     </div>
                     <div className="mxd-process-points__descr">
                       <p className="t-medium t-accent">
-                        Discover how artificial intelligence is transforming
-                        artistic processes, pushing boundaries, and inspiring
-                        new possibilities in digital design.
+                        Layout studies, facade direction, permit-ready drawings,
+                        and coordinated material selections are developed with
+                        both elegance and buildability in mind.
                       </p>
                     </div>
                     <div className="mxd-process-points__time">
                       <span className="tag tag-m tag-permanent">
-                        ~2 weeks timeline
+                        drawings, permits, selections
                       </span>
                     </div>
                   </CommonCardBatchAnimated>
@@ -119,18 +121,18 @@ export default function AboutProcess() {
                       <div className="mxd-process-points__icon accent">
                         <i className="ph ph-codesandbox-logo" />
                       </div>
-                      <p className="accent">Development</p>
+                      <p className="accent">Delivery</p>
                     </div>
                     <div className="mxd-process-points__descr">
                       <p className="t-medium t-accent">
-                        Discover how artificial intelligence is transforming
-                        artistic processes, pushing boundaries, and inspiring
-                        new possibilities in digital design.
+                        During construction we stay close to execution, site
+                        coordination, and handover so the finished space
+                        performs exactly as intended.
                       </p>
                     </div>
                     <div className="mxd-process-points__time">
                       <span className="tag tag-m tag-permanent">
-                        3-4 weeks timeline
+                        build, supervise, hand over
                       </span>
                     </div>
                     <CommonScrollAnimated

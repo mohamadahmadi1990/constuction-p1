@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import AutoplayLoopVideo from "@/components/media/AutoplayLoopVideo";
 import CommonLoadAnimation, {
   CommonLoadFade,
   CommonLoadItem,
@@ -16,191 +15,78 @@ import CommonHero3DImages, {
   CommonHero3DOutroText,
 } from "@/components/animations/CommonHero3DImages";
 import { ArrowDownIcon } from "@/components/icons/UiIcons";
+
+const heroGalleryImages = [
+  "/img/about-us-modern/modern-house-01.jpg",
+  "/img/about-us-modern/curved-balcony-tower.jpg",
+  "/img/about-us-modern/glass-corridor.jpg",
+  "/img/about-us-modern/modern-house-02.jpg",
+  "/img/about-us-modern/office-facade.jpg",
+  "/img/about-us-modern/garden-modern-home.jpg",
+  "/img/about-us-modern/future-stair-hall.jpg",
+  "/img/about-us-modern/material-palette.jpg",
+  "/img/about-us-modern/staircase-interior.jpg",
+  "/img/about-us-modern/steel-staircase.jpg",
+  "/img/about-us-modern/blueprint-meeting.jpg",
+  "/img/about-us-modern/blueprint-hands.jpg",
+  "/img/about-us-modern/villa-water-feature.jpg",
+  "/img/about-us-modern/facade-stripes.jpg",
+  "/img/about-us-modern/modern-house-01.jpg",
+  "/img/about-us-modern/curved-balcony-tower.jpg",
+  "/img/about-us-modern/glass-corridor.jpg",
+  "/img/about-us-modern/modern-house-02.jpg",
+  "/img/about-us-modern/garden-modern-home.jpg",
+  "/img/about-us-modern/villa-water-feature.jpg",
+] as const;
+
 export default function Hero() {
   return (
     <CommonLoadAnimation>
       <>
         <div className="mxd-section mxd-hero-section no-padding loading-wrap">
-          <CommonHero3DImages className="mxd-hero-02">
-            {/* background group */}
-            <div className="mxd-hero-02__background">
-              <AutoplayLoopVideo
-                poster="video/1280x720_hero-02.webp"
-                sources={[
-                  { src: "video/1280x720_hero-02.mp4", type: "video/mp4" },
-                  { src: "video/1280x720_hero-02.webm", type: "video/webm" },
-                ]}
-              />
-              <div className="mxd-hero-02__cover" />
-            </div>
-            {/* scroll images */}
-            <CommonHero3DImagesTrack className="mxd-hero-02__images">
-              <CommonHero3DImage
-                as={Link}
-                index={0}
-                className="hero-02__img"
-                href={`/project-details`}
-              >
+            <CommonHero3DImages className="mxd-hero-02">
+              {/* background group */}
+              <div className="mxd-hero-02__background">
                 <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_1.webp"
-                  width={1280}
-                  height={800}
+                  alt="Dark modern architectural facade with sharp shadow lines"
+                  src="/img/custom/hero-dark-193.jpg"
+                  fill
+                  priority
+                  sizes="100vw"
+                  style={{ objectFit: "cover" }}
                 />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={1} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_2.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={2} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_3.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={3} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_4.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={4} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_5.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={5} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_6.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={6} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_7.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={7} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_8.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={8} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_9.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={9} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_10.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={10} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_11.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={11} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_12.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={12} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_13.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={13} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_14.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={14} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_15.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={15} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_16.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={16} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_17.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={17} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_18.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={18} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_19.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-              <CommonHero3DImage index={19} className="hero-02__img">
-                <Image
-                  alt="Azurio Template Sample Image"
-                  src="/img/hero/hero-03_20.webp"
-                  width={1280}
-                  height={800}
-                />
-              </CommonHero3DImage>
-            </CommonHero3DImagesTrack>
+                <div className="mxd-hero-02__cover" />
+              </div>
+              {/* scroll images */}
+              <CommonHero3DImagesTrack className="mxd-hero-02__images">
+                <CommonHero3DImage
+                  as={Link}
+                  index={0}
+                  className="hero-02__img"
+                  href="/project-details"
+                >
+                  <Image
+                    alt="Contemporary construction and architecture project image"
+                    src={heroGalleryImages[0]}
+                    width={1280}
+                    height={800}
+                  />
+                </CommonHero3DImage>
+                {heroGalleryImages.slice(1).map((src, index) => (
+                  <CommonHero3DImage
+                    key={`${src}-${index + 1}`}
+                    index={index + 1}
+                    className="hero-02__img"
+                  >
+                    <Image
+                      alt="Contemporary construction and architecture project image"
+                      src={src}
+                      width={1280}
+                      height={800}
+                    />
+                  </CommonHero3DImage>
+                ))}
+              </CommonHero3DImagesTrack>
             {/* bottom group */}
             <div className="mxd-hero-02__bottom">
               <div className="mxd-hero-02__dataline">
@@ -210,11 +96,10 @@ export default function Hero() {
                       <CommonLoadItem index={0}>
                         <a
                           className="mxd-socials-line__link permanent loading-item"
-                          href="https://dribbble.com/"
-                          target="_blank"
+                          href="/works-default"
                         >
                           <TextScramble className="mxd-scramble">
-                            Dribbble
+                            Residential
                           </TextScramble>
                         </a>
                       </CommonLoadItem>
@@ -223,11 +108,10 @@ export default function Hero() {
                       <CommonLoadItem index={1}>
                         <a
                           className="mxd-socials-line__link permanent loading-item"
-                          href="https://www.behance.net/"
-                          target="_blank"
+                          href="/works-grid"
                         >
                           <TextScramble className="mxd-scramble">
-                            Behance
+                            Commercial
                           </TextScramble>
                         </a>
                       </CommonLoadItem>
@@ -236,11 +120,10 @@ export default function Hero() {
                       <CommonLoadItem index={2}>
                         <a
                           className="mxd-socials-line__link permanent loading-item"
-                          href="https://github.com/"
-                          target="_blank"
+                          href="/services"
                         >
                           <TextScramble className="mxd-scramble">
-                            Github
+                            Interiors
                           </TextScramble>
                         </a>
                       </CommonLoadItem>
@@ -249,11 +132,10 @@ export default function Hero() {
                       <CommonLoadItem index={3}>
                         <a
                           className="mxd-socials-line__link permanent loading-item"
-                          href="https://codepen.io/"
-                          target="_blank"
+                          href="/about-us"
                         >
                           <TextScramble className="mxd-scramble">
-                            Codepen
+                            Process
                           </TextScramble>
                         </a>
                       </CommonLoadItem>
@@ -262,11 +144,10 @@ export default function Hero() {
                       <CommonLoadItem index={4}>
                         <a
                           className="mxd-socials-line__link permanent loading-item"
-                          href="https://www.figma.com/community"
-                          target="_blank"
+                          href="/contact"
                         >
                           <TextScramble className="mxd-scramble">
-                            Figma Community
+                            Contact
                           </TextScramble>
                         </a>
                       </CommonLoadItem>
@@ -293,8 +174,8 @@ export default function Hero() {
             {/* cover image */}
             <CommonHero3DCover className="mxd-hero-02__cover-img">
               <Image
-                alt="Azurio Template Sample Image"
-                src="/img/hero/hero-03_cover.webp"
+                alt="Black and white modern facade viewed from below"
+                src="/img/custom/hero-cover-23269.jpg"
                 width={1920}
                 height={1200}
                 priority
@@ -304,13 +185,13 @@ export default function Hero() {
             <div className="mxd-hero-02__intro">
               <CommonHero3DIntroText>
                 <h1 className="medium permanent">
-                  Design, tech &amp; some magic
+                  Architecture, craft &amp; disciplined delivery
                 </h1>
               </CommonHero3DIntroText>
             </div>
             <div className="mxd-hero-02__outro">
               <CommonHero3DOutroText>
-                <p>Ready for the game changing project?</p>
+                <p>Contemporary homes, interiors, and low-rise builds shaped with precision.</p>
               </CommonHero3DOutroText>
             </div>
           </CommonHero3DImages>

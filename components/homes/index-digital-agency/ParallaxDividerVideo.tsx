@@ -1,6 +1,6 @@
 import UkiyoParallax from "@/components/animations/UkiyoParallax";
-import AutoplayLoopVideo from "@/components/media/AutoplayLoopVideo";
 import BlurSection from "@/components/animations/BlurSection";
+import Image from "next/image";
 
 export default function ParallaxDividerVideo() {
   return (
@@ -21,12 +21,12 @@ export default function ParallaxDividerVideo() {
                   height: "100%",
                 }}
               >
-                <AutoplayLoopVideo
-                  poster="video/1280x720_bus.webp"
-                  sources={[
-                    { type: "video/mp4", src: "video/1280x720_bus.mp4" },
-                    { type: "video/webm", src: "video/1280x720_bus.webm" },
-                  ]}
+                <Image
+                  alt="Elegant commercial facade under daylight"
+                  src="/img/about-us-modern/office-facade.jpg"
+                  fill
+                  sizes="100vw"
+                  style={{ objectFit: "cover" }}
                 />
               </UkiyoParallax>
             </div>
