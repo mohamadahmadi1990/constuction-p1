@@ -194,3 +194,48 @@ body {
 .no-touch .mxd-menu .main-menu__item.main-menu__item--current .main-menu__toggle:hover svg {
   fill: var(--accent);
 }
+
+/* Footer ecosystem list: keep the social block monochrome and understated. */
+.mxd-footer__socials-list .footer-data {
+  color: rgba(255, 255, 255, 0.56);
+}
+
+.mxd-footer__socials-list .socials-list__divider {
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+.mxd-footer__socials-list .socials-list__item {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.mxd-footer__socials-list .socials-list__number {
+  color: rgba(255, 255, 255, 0.42);
+}
+
+.mxd-footer__socials-list .socials-list__name {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.mxd-footer__socials-list .socials-list__arrow {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.mxd-footer__socials-list .socials-list__arrow svg {
+  fill: none;
+  stroke: currentColor;
+}
+
+@media only screen and (min-width: 1200px) {
+  .no-touch .mxd-footer__socials-list .socials-list__item:hover {
+    color: rgba(255, 255, 255, 0.72);
+  }
+
+  .no-touch .mxd-footer__socials-list .socials-list__item:hover .socials-list__number {
+    color: rgba(255, 255, 255, 0.32);
+  }
+
+  .no-touch .mxd-footer__socials-list .socials-list__item:hover .socials-list__name,
+  .no-touch .mxd-footer__socials-list .socials-list__item:hover .socials-list__arrow {
+    color: rgba(255, 255, 255, 0.72);
+  }
+}
