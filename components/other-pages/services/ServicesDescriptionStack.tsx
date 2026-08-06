@@ -1,11 +1,13 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import type { ReactNode } from "react";
 import TextScramble from "@/components/animations/TextScramble";
 import CommonServicesStack, {
   ServicesStackSlot,
 } from "@/components/animations/CommonServicesStack";
+import { ArrowUpRightIcon } from "@/components/icons/UiIcons";
 
 const IMG_W = 1200;
 const IMG_H = 1300;
@@ -18,6 +20,7 @@ type Card = {
   tagCols: [string[], string[]];
   tagVariant?: "default" | "meta";
   image: string;
+  href: string;
   descrClass: string;
   descr: ReactNode;
 };
@@ -33,6 +36,7 @@ const CARDS: Card[] = [
     ],
     tagVariant: "meta",
     image: "/img/about-us-modern/modern-house-01.jpg",
+    href: "/project-details",
     descrClass: "services-card__descr services-card__descr--list",
     descr: (
       <>
@@ -53,6 +57,7 @@ const CARDS: Card[] = [
       ["In-house", "On-Site"],
     ],
     image: "/img/about-us-modern/staircase-interior.jpg",
+    href: "/project-details",
     descrClass: "services-card__descr services-card__descr--list",
     descr: (
       <>
@@ -90,6 +95,7 @@ const CARDS: Card[] = [
       ["Visual identity", "Rebranding"],
     ],
     image: "/img/about-us-modern/office-facade.jpg",
+    href: "/project-details",
     descrClass: "services-card__descr services-card__descr--list",
     descr: (
       <>
@@ -120,6 +126,7 @@ const CARDS: Card[] = [
       ["commercial spaces", "residential"],
     ],
     image: "/img/about-us-modern/material-palette.jpg",
+    href: "/project-details",
     descrClass: "services-card__descr services-card__descr--list",
     descr: (
       <>
@@ -228,15 +235,36 @@ function ServiceCard({ card, index }: { card: Card; index: number }) {
               </ServicesStackSlot>
             </div>
             <ServicesStackSlot part="image" index={index}>
-              <div className="services-card__image">
+              <Link
+                className="services-card__image services-card__image-link"
+                href={card.href}
+                aria-label={`${card.title} project details`}
+              >
                 <Image
                   src={card.image}
                   width={IMG_W}
                   height={IMG_H}
                   alt={IMG_ALT}
                 />
-                <div className="services-card__cover" />
-              </div>
+                <div className="services-card__cover">
+                  <div className="services-card__cover-inner">
+                    <span className="services-card__cover-kicker">
+                      Case Study
+                    </span>
+                    <div className="services-card__cover-row">
+                      <p className="services-card__cover-title">
+                        View Project Details
+                      </p>
+                      <span
+                        className="services-card__cover-icon"
+                        aria-hidden="true"
+                      >
+                        <ArrowUpRightIcon />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </Link>
             </ServicesStackSlot>
           </div>
         </ServicesStackSlot>
