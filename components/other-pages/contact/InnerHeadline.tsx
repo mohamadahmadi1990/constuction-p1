@@ -46,7 +46,7 @@ export default function InnerHeadline() {
                                   className="medium loading-split"
                                   animation="splitLinesLoad"
                                 >
-                                  Let&apos;s make it happen
+                                  Discuss your next build
                                 </CommonAnimatedText>
                               </div>
                               {/* <div class="inner-headline__subtitle">
@@ -62,13 +62,12 @@ export default function InnerHeadline() {
                                     className="t-bold t-large loading-split"
                                     animation="splitLinesLoad"
                                   >
-                                    Have questions? We&apos;ve got the answers!
-                                    Here, you&apos;ll find clear and concise
-                                    information{" "}
+                                    Share your site conditions, renovation goals,
+                                    or development brief.
                                     <span>
-                                      about our services, process, and what to
-                                      expect when working with us. If you need
-                                      more details, feel free to reach out!
+                                      We help shape scope, approvals, budgets,
+                                      and a practical construction path before
+                                      the next decision gets expensive.
                                     </span>
                                   </CommonAnimatedText>
                                 </div>

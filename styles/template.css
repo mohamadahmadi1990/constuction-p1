@@ -30,6 +30,10 @@ body {
   background-image: url("/img/about-us-modern/office-facade.jpg");
 }
 
+.divider-image-contact-01 {
+  background-image: url("/img/about-us-modern/future-stair-hall.jpg");
+}
+
 .image-auto {
   /* width: auto !important; */
   height: auto !important;
@@ -353,6 +357,21 @@ body {
 }
 .no-touch .mxd-menu .main-menu__item.main-menu__item--current .main-menu__toggle:hover svg {
   fill: var(--accent);
+}
+
+.mxd-socials-list .socials-list__arrow svg,
+.mxd-form-container .btn-icon svg {
+  fill: none;
+  stroke: currentColor;
+}
+
+.mxd-socials-list .socials-list__arrow {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.mxd-socials-list .socials-list__arrow.accent svg {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.92);
 }
 
 /* Footer ecosystem list: keep the social block monochrome and understated. */

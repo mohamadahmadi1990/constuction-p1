@@ -20,7 +20,7 @@ export default function SectionTitle() {
                         className="mxd-split-lines"
                         animation="splitLines"
                       >
-                        Welcome to our office
+                        Meetings tailored to your project stage
                       </CommonAnimatedText>
                     </div>
                   </div>
@@ -33,9 +33,12 @@ export default function SectionTitle() {
                       className="t-bold t-large mxd-split-lines"
                       animation="splitLines"
                     >
-                      Inspiring ideas, creative insights, and the latest in
-                      design and tech.
-                      <span>Fueling innovation for your digital journey.</span>
+                      Whether you are comparing sites, refining a renovation
+                      scope, or preparing for permit-ready coordination,
+                      <span>
+                        we shape the first conversation around practical next
+                        steps, timelines, and budget decisions.
+                      </span>
                     </CommonAnimatedText>
                   </div>
                   {/* contact data */}
@@ -50,7 +53,7 @@ export default function SectionTitle() {
                               as="p"
                               animation="inUp"
                             >
-                              New York
+                              Initial consultations
                             </CommonScrollAnimated>
                           </div>
                           <ul>
@@ -61,14 +64,10 @@ export default function SectionTitle() {
                             >
                               <a
                                 className="tag tag-s-mobile"
-                                href="https://goo.gl/maps/nWXKpGaDPuyH6gxRA"
-                                target="_blank"
+                                href="mailto:hello@azurio.com?subject=Book%20an%20Initial%20Consultation"
                               >
-                                11 West 53 Street,
-                                <br />
-                                New York, NY
-                                <br />
-                                10019
+                                In-person or virtual planning sessions for
+                                homeowners, developers, and property managers.
                               </a>
                             </CommonScrollAnimated>
                           </ul>
@@ -111,7 +110,7 @@ export default function SectionTitle() {
                               as="p"
                               animation="inUp"
                             >
-                              Oakland
+                              Project coordination
                             </CommonScrollAnimated>
                           </div>
                           <ul>
@@ -122,14 +121,10 @@ export default function SectionTitle() {
                             >
                               <a
                                 className="tag tag-s-mobile"
-                                href="https://goo.gl/maps/xap5o3MZBuC6DFHz8"
-                                target="_blank"
+                                href="mailto:hello@azurio.com?subject=Project%20Coordination%20Request"
                               >
-                                3400 Broadway,
-                                <br />
-                                Oakland, CA
-                                <br />
-                                94611
+                                Send drawings, site photos, tender packages, or
+                                timeline questions for a scoped reply.
                               </a>
                             </CommonScrollAnimated>
                           </ul>

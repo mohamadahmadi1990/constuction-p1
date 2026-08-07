@@ -3,6 +3,7 @@
 import { type FormEvent, useState } from "react";
 import { CommonLoadItem } from "@/components/animations/CommonLoadAnimation";
 import TextScramble from "@/components/animations/TextScramble";
+import { ArrowUpRightIcon } from "@/components/icons/UiIcons";
 
 type FormStatus = "idle" | "sending" | "success" | "error";
 
@@ -12,7 +13,7 @@ type Web3Response = { success: boolean; message?: string };
 
 /**
  * Web3Forms React example: FormData from the form, `access_key` appended, then POST to their API.
- * The key is public (inlined at build) — set `NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY` in `.env.local` (not hardcoded).
+ * The key is public (inlined at build) - set `NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY` in `.env.local` (not hardcoded).
  */
 export default function ContactForm() {
   const [status, setStatus] = useState<FormStatus>("idle");
@@ -44,7 +45,7 @@ export default function ContactForm() {
       if (data.success) {
         setStatus("success");
         setFeedback(
-          "Thanks for your message. We'll get back as soon as possible.",
+          "Thanks for reaching out. We'll review your brief and follow up shortly.",
         );
         form.reset();
         return;
@@ -88,7 +89,7 @@ export default function ContactForm() {
           <input
             type="hidden"
             name="subject"
-            defaultValue="New message from contact page"
+            defaultValue="New construction inquiry from contact page"
             aria-hidden
           />
           <div className="container-fluid p-0">
@@ -111,7 +112,7 @@ export default function ContactForm() {
                     type="text"
                     name="company"
                     autoComplete="organization"
-                    placeholder="Company name"
+                    placeholder="Company / household"
                     disabled={status === "sending" || showSuccessReply}
                   />
                 </div>
@@ -143,9 +144,9 @@ export default function ContactForm() {
                 <div className="col-12 mxd-grid-item loading-item">
                   <textarea
                     name="message"
-                    placeholder="A few words about your project*"
+                    placeholder="Tell us about your site, scope, budget, or timeline*"
                     required
-                    defaultValue={""}
+                    defaultValue=""
                     disabled={status === "sending" || showSuccessReply}
                   />
                 </div>
@@ -158,21 +159,14 @@ export default function ContactForm() {
                     disabled={status === "sending" || showSuccessReply}
                   >
                     {status === "sending" ? (
-                      <span className="btn-caption">Sending…</span>
+                      <span className="btn-caption">Sending...</span>
                     ) : (
                       <TextScramble className="btn-caption mxd-scramble">
-                        Submit
+                        Send inquiry
                       </TextScramble>
                     )}
                     <i className="btn-icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        version="1.1"
-                        viewBox="0 0 18 18"
-                        aria-hidden
-                      >
-                        <path d="M10.8,0v3.6h-3.6V0h3.6ZM14.4,10.8h3.6v-3.6h-3.6v-3.6h-3.6v3.6H0v3.6h10.8v3.6h3.6v-3.6ZM10.8,14.4h-3.6v3.6h3.6v-3.6Z" />
-                      </svg>
+                      <ArrowUpRightIcon />
                     </i>
                   </button>
                 </div>
